@@ -77,12 +77,12 @@ theme2 #get 获取法人下的所有主题
 
 itemsList #post 获取主题列表
     sleep   1
-    Open workbook   F:\\token.xlsx
-    ${token}     Read from cell    B4
-    ${themeCode}      Read from cell    C1
-    ${headers}    create Dictionary    token=${token}
-    create session    itemlist    http://121.30.189.198:14355    ${headers}
-    FOR  ${themeCode}  IN   005  010  015  020  025
+    FOR  ${themeCode}   IN   005   010   015   020   025
+        Open workbook   F:\\token.xlsx
+        ${token}     Read from cell    B4
+        ${themeCode}      Read from cell    C1
+        ${headers}    create Dictionary    token=${token}
+        create session    itemlist    http://121.30.189.198:14355    ${headers}
         ${data}    create Dictionary    pageNo=0    departmentId=0    themeType=1    pageSize=10    itemName=     themeCode=${themeCode}     itemTypeCode=
         ${resp}    post on session    itemlist    approval-project/itemsList/example/0/10    ${data}
         close_workbook    F:\\token.xlsx
