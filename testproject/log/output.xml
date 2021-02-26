@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20210226 09:54:27.072" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20210226 10:19:47.412" rpa="false">
 <suite id="s1" name="Approval Testsuit" source="D:\Program Files\JetBrains\PyCharm Community Edition 2020.2\Robot\testproject\approval_testsuit.robot">
 <test id="s1-t1" name="test">
 <kw name="Create List" library="BuiltIn">
@@ -12,8 +12,8 @@
 <assign>
 <var>@{ITEMS}</var>
 </assign>
-<msg timestamp="20210226 09:54:27.834" level="INFO">@{ITEMS} = [ Star Trek | Star Wars | Perry Rhodan ]</msg>
-<status status="PASS" starttime="20210226 09:54:27.834" endtime="20210226 09:54:27.834"></status>
+<msg timestamp="20210226 10:19:48.162" level="INFO">@{ITEMS} = [ Star Trek | Star Wars | Perry Rhodan ]</msg>
+<status status="PASS" starttime="20210226 10:19:48.161" endtime="20210226 10:19:48.162"></status>
 </kw>
 <kw name="${ELEMENT} IN [ @{ITEMS} ]" type="for">
 <kw name="${ELEMENT} = Star Trek" type="foritem">
@@ -22,10 +22,10 @@
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:27.834" level="INFO">Star Trek</msg>
-<status status="PASS" starttime="20210226 09:54:27.834" endtime="20210226 09:54:27.835"></status>
+<msg timestamp="20210226 10:19:48.162" level="INFO">Star Trek</msg>
+<status status="PASS" starttime="20210226 10:19:48.162" endtime="20210226 10:19:48.162"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.834" endtime="20210226 09:54:27.835"></status>
+<status status="PASS" starttime="20210226 10:19:48.162" endtime="20210226 10:19:48.162"></status>
 </kw>
 <kw name="${ELEMENT} = Star Wars" type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -33,10 +33,10 @@
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:27.835" level="INFO">Star Wars</msg>
-<status status="PASS" starttime="20210226 09:54:27.835" endtime="20210226 09:54:27.835"></status>
+<msg timestamp="20210226 10:19:48.162" level="INFO">Star Wars</msg>
+<status status="PASS" starttime="20210226 10:19:48.162" endtime="20210226 10:19:48.162"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.835" endtime="20210226 09:54:27.835"></status>
+<status status="PASS" starttime="20210226 10:19:48.162" endtime="20210226 10:19:48.162"></status>
 </kw>
 <kw name="${ELEMENT} = Perry Rhodan" type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -44,12 +44,12 @@
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:27.835" level="INFO">Perry Rhodan</msg>
-<status status="PASS" starttime="20210226 09:54:27.835" endtime="20210226 09:54:27.835"></status>
+<msg timestamp="20210226 10:19:48.163" level="INFO">Perry Rhodan</msg>
+<status status="PASS" starttime="20210226 10:19:48.163" endtime="20210226 10:19:48.163"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.835" endtime="20210226 09:54:27.835"></status>
+<status status="PASS" starttime="20210226 10:19:48.162" endtime="20210226 10:19:48.163"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.834" endtime="20210226 09:54:27.835"></status>
+<status status="PASS" starttime="20210226 10:19:48.162" endtime="20210226 10:19:48.163"></status>
 </kw>
 <kw name="${ELEMENT} IN [ Star Trek | Star Wars | Perry Rhodan ]" type="for">
 <kw name="${ELEMENT} = Star Trek" type="foritem">
@@ -58,10 +58,10 @@
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:27.836" level="INFO">Star Trek</msg>
-<status status="PASS" starttime="20210226 09:54:27.835" endtime="20210226 09:54:27.836"></status>
+<msg timestamp="20210226 10:19:48.163" level="INFO">Star Trek</msg>
+<status status="PASS" starttime="20210226 10:19:48.163" endtime="20210226 10:19:48.163"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.835" endtime="20210226 09:54:27.836"></status>
+<status status="PASS" starttime="20210226 10:19:48.163" endtime="20210226 10:19:48.163"></status>
 </kw>
 <kw name="${ELEMENT} = Star Wars" type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -69,10 +69,10 @@
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:27.836" level="INFO">Star Wars</msg>
-<status status="PASS" starttime="20210226 09:54:27.836" endtime="20210226 09:54:27.836"></status>
+<msg timestamp="20210226 10:19:48.163" level="INFO">Star Wars</msg>
+<status status="PASS" starttime="20210226 10:19:48.163" endtime="20210226 10:19:48.163"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.836" endtime="20210226 09:54:27.836"></status>
+<status status="PASS" starttime="20210226 10:19:48.163" endtime="20210226 10:19:48.163"></status>
 </kw>
 <kw name="${ELEMENT} = Perry Rhodan" type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -80,14 +80,14 @@
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:27.836" level="INFO">Perry Rhodan</msg>
-<status status="PASS" starttime="20210226 09:54:27.836" endtime="20210226 09:54:27.836"></status>
+<msg timestamp="20210226 10:19:48.164" level="INFO">Perry Rhodan</msg>
+<status status="PASS" starttime="20210226 10:19:48.164" endtime="20210226 10:19:48.164"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.836" endtime="20210226 09:54:27.836"></status>
+<status status="PASS" starttime="20210226 10:19:48.164" endtime="20210226 10:19:48.164"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.835" endtime="20210226 09:54:27.836"></status>
+<status status="PASS" starttime="20210226 10:19:48.163" endtime="20210226 10:19:48.164"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.833" endtime="20210226 09:54:27.836" critical="yes"></status>
+<status status="PASS" starttime="20210226 10:19:48.161" endtime="20210226 10:19:48.164" critical="yes"></status>
 </test>
 <test id="s1-t2" name="index #获取token 获取json串的值">
 <kw name="Create Session" library="RequestsLibrary">
@@ -96,8 +96,8 @@
 <arg>local</arg>
 <arg>http://121.30.189.198:14355/approval-project</arg>
 </arguments>
-<msg timestamp="20210226 09:54:27.837" level="INFO">Creating Session using : alias=local, url=http://121.30.189.198:14355/approval-project, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:27.837" endtime="20210226 09:54:27.838"></status>
+<msg timestamp="20210226 10:19:48.165" level="INFO">Creating Session using : alias=local, url=http://121.30.189.198:14355/approval-project, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:48.165" endtime="20210226 10:19:48.165"></status>
 </kw>
 <kw name="Get On Session" library="RequestsLibrary">
 <doc>Sends a GET request on a previously created HTTP Session.</doc>
@@ -108,34 +108,34 @@
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:27.860" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/index 
+<msg timestamp="20210226 10:19:48.190" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/index 
  path_url=/approval-project/index 
  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg timestamp="20210226 09:54:27.864" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/index 
+<msg timestamp="20210226 10:19:48.194" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/index 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:25 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":{"token":"NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN","powerMenuList":[{"treeId":63,"treeParentId":0,"treeLevel":1,"childrenList":[{"treeId":64,"treeParentId":63,"treeLevel":2,"childrenList":null,"menuId":64,"menuName":"事项栏目","menuOrderWeight":0,"treePathEnum":"63_64","menuType":1,"menuIcon":"","menuRoutePath":"/matterManage"},{"treeId":65,"treeParentId":63,"treeLevel":2,"childrenList":null,"menuId":65,"menuName":"事项清单","menuOrderWeight":0,"treePathEnum":"63_65","menuType":1,"menuIcon":"","menuRoutePath":"/inventory"}],"menuId":63,"menuName":"事项管理","menuOrderWeight":98,"treePathEnum":"63","menuType":1,"menuIcon":"icon-matter","menuRoutePath":"//"},{"treeId":29,"treeParentId":0,"treeLevel":1,"childrenList":null,"menuId":29,"menuName":"部门管理","menuOrderWeight":4,"treePathEnum":"29","menuType":1,"menuIcon":"icon-department","menuRoutePath":"/departmentMatters"},{"treeId":40,"treeParentId":0,"treeLevel":1,"childrenList":null,"menuId":40,"menuName":"问题库","menuOrderWeight":0,"treePathEnum":"40","menuType":1,"menuIcon":"icon-question","menuRoutePath":"/questionBank"}],"powerButtonList":[]}} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:46 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ body={"code":200,"message":"request successful","data":{"token":"NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb","powerMenuList":[{"treeId":63,"treeParentId":0,"treeLevel":1,"childrenList":[{"treeId":64,"treeParentId":63,"treeLevel":2,"childrenList":null,"menuId":64,"menuName":"事项栏目","menuOrderWeight":0,"treePathEnum":"63_64","menuType":1,"menuIcon":"","menuRoutePath":"/matterManage"},{"treeId":65,"treeParentId":63,"treeLevel":2,"childrenList":null,"menuId":65,"menuName":"事项清单","menuOrderWeight":0,"treePathEnum":"63_65","menuType":1,"menuIcon":"","menuRoutePath":"/inventory"}],"menuId":63,"menuName":"事项管理","menuOrderWeight":98,"treePathEnum":"63","menuType":1,"menuIcon":"icon-matter","menuRoutePath":"//"},{"treeId":29,"treeParentId":0,"treeLevel":1,"childrenList":null,"menuId":29,"menuName":"部门管理","menuOrderWeight":4,"treePathEnum":"29","menuType":1,"menuIcon":"icon-department","menuRoutePath":"/departmentMatters"},{"treeId":40,"treeParentId":0,"treeLevel":1,"childrenList":null,"menuId":40,"menuName":"问题库","menuOrderWeight":0,"treePathEnum":"40","menuType":1,"menuIcon":"icon-question","menuRoutePath":"/questionBank"}],"powerButtonList":[]}} 
  </msg>
-<msg timestamp="20210226 09:54:27.864" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:27.838" endtime="20210226 09:54:27.864"></status>
+<msg timestamp="20210226 10:19:48.194" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:48.165" endtime="20210226 10:19:48.194"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.json()['data']['powerMenuList'][0]['menuName']}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:27.865" level="INFO">事项管理</msg>
-<status status="PASS" starttime="20210226 09:54:27.865" endtime="20210226 09:54:27.865"></status>
+<msg timestamp="20210226 10:19:48.195" level="INFO">事项管理</msg>
+<status status="PASS" starttime="20210226 10:19:48.194" endtime="20210226 10:19:48.195"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.json()['data']['token']}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:27.865" level="INFO">NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:27.865" endtime="20210226 09:54:27.865"></status>
+<msg timestamp="20210226 10:19:48.195" level="INFO">NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:48.195" endtime="20210226 10:19:48.195"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -143,10 +143,10 @@
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:27.866" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:48.195" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:27.865" endtime="20210226 09:54:27.866"></status>
+<status status="PASS" starttime="20210226 10:19:48.195" endtime="20210226 10:19:48.195"></status>
 </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
@@ -154,7 +154,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:27.866" endtime="20210226 09:54:27.878"></status>
+<status status="PASS" starttime="20210226 10:19:48.195" endtime="20210226 10:19:48.207"></status>
 </kw>
 <kw name="Write To Cell" library="ExcellentLibrary">
 <doc>Writes a value to the supplied cell.</doc>
@@ -162,23 +162,23 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>B4</arg>
 <arg>${resp.json()['data']['token']}</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:27.878" endtime="20210226 09:54:27.878"></status>
+<status status="PASS" starttime="20210226 10:19:48.208" endtime="20210226 10:19:48.208"></status>
 </kw>
 <kw name="Save" library="ExcellentLibrary">
 <doc>Saves the changes to the currently active workbook.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:27.878" endtime="20210226 09:54:27.902"></status>
+<status status="PASS" starttime="20210226 10:19:48.208" endtime="20210226 10:19:48.232"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:27.903" endtime="20210226 09:54:27.903"></status>
+<status status="PASS" starttime="20210226 10:19:48.233" endtime="20210226 10:19:48.233"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.837" endtime="20210226 09:54:27.903" critical="yes"></status>
+<status status="PASS" starttime="20210226 10:19:48.164" endtime="20210226 10:19:48.233" critical="yes"></status>
 </test>
 <test id="s1-t3" name="theme1 #get 获取自然人下的所有主题">
 <kw name="Sleep" library="BuiltIn">
@@ -186,8 +186,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20210226 09:54:28.906" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 09:54:27.904" endtime="20210226 09:54:28.906"></status>
+<msg timestamp="20210226 10:19:49.235" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210226 10:19:48.234" endtime="20210226 10:19:49.235"></status>
 </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
@@ -195,7 +195,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:28.906" endtime="20210226 09:54:28.917"></status>
+<status status="PASS" starttime="20210226 10:19:49.235" endtime="20210226 10:19:49.246"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -205,8 +205,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${token}</var>
 </assign>
-<msg timestamp="20210226 09:54:28.917" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:28.917" endtime="20210226 09:54:28.917"></status>
+<msg timestamp="20210226 10:19:49.246" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:49.246" endtime="20210226 10:19:49.246"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -216,8 +216,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${headers}</var>
 </assign>
-<msg timestamp="20210226 09:54:28.918" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'}</msg>
-<status status="PASS" starttime="20210226 09:54:28.917" endtime="20210226 09:54:28.918"></status>
+<msg timestamp="20210226 10:19:49.247" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:49.246" endtime="20210226 10:19:49.247"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -226,8 +226,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>http://121.30.189.198:14355/approval-project/theme</arg>
 <arg>${headers}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:28.918" level="INFO">Creating Session using : alias=local, url=http://121.30.189.198:14355/approval-project/theme, headers={'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:28.918" endtime="20210226 09:54:28.918"></status>
+<msg timestamp="20210226 10:19:49.247" level="INFO">Creating Session using : alias=local, url=http://121.30.189.198:14355/approval-project/theme, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:49.247" endtime="20210226 10:19:49.247"></status>
 </kw>
 <kw name="Get On Session" library="RequestsLibrary">
 <doc>Sends a GET request on a previously created HTTP Session.</doc>
@@ -238,41 +238,41 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:28.942" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/theme/1 
+<msg timestamp="20210226 10:19:49.274" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/theme/1 
  path_url=/approval-project/theme/1 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'} 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'} 
  body=None 
  </msg>
-<msg timestamp="20210226 09:54:28.947" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/theme/1 
+<msg timestamp="20210226 10:19:49.277" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/theme/1 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:27 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:47 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
  body={"code":200,"message":"request successful","data":[{"themeId":1,"themeCode":"005","themeName":"生育收养","icon":"group1/M00/0E/BB/wKgDZV_IU9-AQtDmAAAGKK1vgVU240.png","themeType":1,"createTime":"2020-09-25T01:57:43.453+00:00","updateTime":"2020-12-03T02:56:34.277+00:00","stringThemeId":"1"},{"themeId":2,"themeCode":"010","themeName":"户籍办理","icon":"group3/M00/0E/BB/wKgDZ1_IVOuAT60_AAAEd4tuIGg981.png","themeType":1,"createTime":"2020-09-25T01:57:53.154+00:00","updateTime":"2020-12-03T03:01:01.805+00:00","stringThemeId":"2"},{"themeId":3,"themeCode":"015","themeName":"民族宗教","icon":"group2/M00/0E/BB/wKgDZl_IVI-ALHAuAAAFNoshNrQ926.png","themeType":1,"createTime":"2020-09-25T01:58:05.699+00:00","updateTime":"2020-12-03T02:59:30.260+00:00","stringThemeId":"3"},{"themeId":4,"themeCode":"020","themeName":"教育科研","icon":"group1/M00/0E/BB/wKgDZV_IVPKAbu5yAAAEZbKjN2U486.png","themeType":1,"createTime":"2020-09-25T01:58:17.253+00:00","updateTime":"2020-12-03T03:01:09.305+00:00","stringThemeId":"4"},{"themeId":5,"themeCode":"025","themeName":"入伍服役","icon":"group1/M00/0E/BB/wKgDZV_IVIeAW5a1AAAE4kGHtWc550.png","themeType":1,"createTime":"2020-09-25T01:58:46.540+00:00","updateTime":"2020-12-03T02:59:21.845+00:00","stringThemeId":"5"}]} 
  </msg>
-<msg timestamp="20210226 09:54:28.947" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:28.918" endtime="20210226 09:54:28.947"></status>
+<msg timestamp="20210226 10:19:49.277" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:49.247" endtime="20210226 10:19:49.277"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:28.947" endtime="20210226 09:54:28.947"></status>
+<status status="PASS" starttime="20210226 10:19:49.278" endtime="20210226 10:19:49.278"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:28.948" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 09:54:28.947" endtime="20210226 09:54:28.948"></status>
+<msg timestamp="20210226 10:19:49.278" level="INFO">200</msg>
+<status status="PASS" starttime="20210226 10:19:49.278" endtime="20210226 10:19:49.278"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.text}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:28.952" level="INFO">{"code":200,"message":"request successful","data":[{"themeId":1,"themeCode":"005","themeName":"生育收养","icon":"group1/M00/0E/BB/wKgDZV_IU9-AQtDmAAAGKK1vgVU240.png","themeType":1,"createTime":"2020-09-25T01:57:43.453+00:00","updateTime":"2020-12-03T02:56:34.277+00:00","stringThemeId":"1"},{"themeId":2,"themeCode":"010","themeName":"户籍办理","icon":"group3/M00/0E/BB/wKgDZ1_IVOuAT60_AAAEd4tuIGg981.png","themeType":1,"createTime":"2020-09-25T01:57:53.154+00:00","updateTime":"2020-12-03T03:01:01.805+00:00","stringThemeId":"2"},{"themeId":3,"themeCode":"015","themeName":"民族宗教","icon":"group2/M00/0E/BB/wKgDZl_IVI-ALHAuAAAFNoshNrQ926.png","themeType":1,"createTime":"2020-09-25T01:58:05.699+00:00","updateTime":"2020-12-03T02:59:30.260+00:00","stringThemeId":"3"},{"themeId":4,"themeCode":"020","themeName":"教育科研","icon":"group1/M00/0E/BB/wKgDZV_IVPKAbu5yAAAEZbKjN2U486.png","themeType":1,"createTime":"2020-09-25T01:58:17.253+00:00","updateTime":"2020-12-03T03:01:09.305+00:00","stringThemeId":"4"},{"themeId":5,"themeCode":"025","themeName":"入伍服役","icon":"group1/M00/0E/BB/wKgDZV_IVIeAW5a1AAAE4kGHtWc550.png","themeType":1,"createTime":"2020-09-25T01:58:46.540+00:00","updateTime":"2020-12-03T02:59:21.845+00:00","stringThemeId":"5"}]}</msg>
-<status status="PASS" starttime="20210226 09:54:28.948" endtime="20210226 09:54:28.952"></status>
+<msg timestamp="20210226 10:19:49.282" level="INFO">{"code":200,"message":"request successful","data":[{"themeId":1,"themeCode":"005","themeName":"生育收养","icon":"group1/M00/0E/BB/wKgDZV_IU9-AQtDmAAAGKK1vgVU240.png","themeType":1,"createTime":"2020-09-25T01:57:43.453+00:00","updateTime":"2020-12-03T02:56:34.277+00:00","stringThemeId":"1"},{"themeId":2,"themeCode":"010","themeName":"户籍办理","icon":"group3/M00/0E/BB/wKgDZ1_IVOuAT60_AAAEd4tuIGg981.png","themeType":1,"createTime":"2020-09-25T01:57:53.154+00:00","updateTime":"2020-12-03T03:01:01.805+00:00","stringThemeId":"2"},{"themeId":3,"themeCode":"015","themeName":"民族宗教","icon":"group2/M00/0E/BB/wKgDZl_IVI-ALHAuAAAFNoshNrQ926.png","themeType":1,"createTime":"2020-09-25T01:58:05.699+00:00","updateTime":"2020-12-03T02:59:30.260+00:00","stringThemeId":"3"},{"themeId":4,"themeCode":"020","themeName":"教育科研","icon":"group1/M00/0E/BB/wKgDZV_IVPKAbu5yAAAEZbKjN2U486.png","themeType":1,"createTime":"2020-09-25T01:58:17.253+00:00","updateTime":"2020-12-03T03:01:09.305+00:00","stringThemeId":"4"},{"themeId":5,"themeCode":"025","themeName":"入伍服役","icon":"group1/M00/0E/BB/wKgDZV_IVIeAW5a1AAAE4kGHtWc550.png","themeType":1,"createTime":"2020-09-25T01:58:46.540+00:00","updateTime":"2020-12-03T02:59:21.845+00:00","stringThemeId":"5"}]}</msg>
+<status status="PASS" starttime="20210226 10:19:49.278" endtime="20210226 10:19:49.282"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -280,10 +280,10 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:28.953" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:49.282" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:28.952" endtime="20210226 09:54:28.953"></status>
+<status status="PASS" starttime="20210226 10:19:49.282" endtime="20210226 10:19:49.282"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -291,9 +291,9 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:28.953" endtime="20210226 09:54:28.953"></status>
+<status status="PASS" starttime="20210226 10:19:49.283" endtime="20210226 10:19:49.283"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:27.903" endtime="20210226 09:54:28.954" critical="yes"></status>
+<status status="PASS" starttime="20210226 10:19:48.233" endtime="20210226 10:19:49.283" critical="yes"></status>
 </test>
 <test id="s1-t4" name="theme2 #get 获取法人下的所有主题">
 <kw name="Sleep" library="BuiltIn">
@@ -301,8 +301,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20210226 09:54:29.957" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 09:54:28.955" endtime="20210226 09:54:29.957"></status>
+<msg timestamp="20210226 10:19:50.284" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210226 10:19:49.284" endtime="20210226 10:19:50.284"></status>
 </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
@@ -310,7 +310,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:29.957" endtime="20210226 09:54:29.968"></status>
+<status status="PASS" starttime="20210226 10:19:50.284" endtime="20210226 10:19:50.295"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -320,8 +320,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${token}</var>
 </assign>
-<msg timestamp="20210226 09:54:29.968" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:29.968" endtime="20210226 09:54:29.968"></status>
+<msg timestamp="20210226 10:19:50.295" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:50.295" endtime="20210226 10:19:50.295"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -331,8 +331,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${headers}</var>
 </assign>
-<msg timestamp="20210226 09:54:29.969" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'}</msg>
-<status status="PASS" starttime="20210226 09:54:29.968" endtime="20210226 09:54:29.969"></status>
+<msg timestamp="20210226 10:19:50.295" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:50.295" endtime="20210226 10:19:50.295"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -341,8 +341,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>http://121.30.189.198:14355/approval-project/theme</arg>
 <arg>${headers}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:29.969" level="INFO">Creating Session using : alias=local, url=http://121.30.189.198:14355/approval-project/theme, headers={'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:29.969" endtime="20210226 09:54:29.969"></status>
+<msg timestamp="20210226 10:19:50.296" level="INFO">Creating Session using : alias=local, url=http://121.30.189.198:14355/approval-project/theme, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:50.295" endtime="20210226 10:19:50.296"></status>
 </kw>
 <kw name="Get On Session" library="RequestsLibrary">
 <doc>Sends a GET request on a previously created HTTP Session.</doc>
@@ -353,41 +353,41 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:30.004" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/theme/2 
+<msg timestamp="20210226 10:19:50.320" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/theme/2 
  path_url=/approval-project/theme/2 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'} 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'} 
  body=None 
  </msg>
-<msg timestamp="20210226 09:54:30.006" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/theme/2 
+<msg timestamp="20210226 10:19:50.321" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/theme/2 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:28 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:48 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
  body={"code":200,"message":"request successful","data":[{"themeId":10,"themeCode":"1","themeName":"便民","icon":"group2/M00/0E/BB/wKgDZl_IVG2Ae6m8AAAFJu3KcwQ689.png","themeType":2,"createTime":"2020-10-20T08:32:06.805+00:00","updateTime":"2020-12-03T02:58:55.755+00:00","stringThemeId":"10"},{"themeId":11,"themeCode":"10006","themeName":"土地办理","icon":"group3/M00/0E/BB/wKgDZ1_IVHOAdcorAAADwTW7yGc646.png","themeType":2,"createTime":"2020-11-23T11:22:09.436+00:00","updateTime":"2020-12-03T02:59:01.870+00:00","stringThemeId":"11"}]} 
  </msg>
-<msg timestamp="20210226 09:54:30.006" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:29.969" endtime="20210226 09:54:30.006"></status>
+<msg timestamp="20210226 10:19:50.322" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:50.296" endtime="20210226 10:19:50.322"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:30.006" endtime="20210226 09:54:30.006"></status>
+<status status="PASS" starttime="20210226 10:19:50.322" endtime="20210226 10:19:50.322"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:30.006" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 09:54:30.006" endtime="20210226 09:54:30.006"></status>
+<msg timestamp="20210226 10:19:50.322" level="INFO">200</msg>
+<status status="PASS" starttime="20210226 10:19:50.322" endtime="20210226 10:19:50.322"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.text}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:30.008" level="INFO">{"code":200,"message":"request successful","data":[{"themeId":10,"themeCode":"1","themeName":"便民","icon":"group2/M00/0E/BB/wKgDZl_IVG2Ae6m8AAAFJu3KcwQ689.png","themeType":2,"createTime":"2020-10-20T08:32:06.805+00:00","updateTime":"2020-12-03T02:58:55.755+00:00","stringThemeId":"10"},{"themeId":11,"themeCode":"10006","themeName":"土地办理","icon":"group3/M00/0E/BB/wKgDZ1_IVHOAdcorAAADwTW7yGc646.png","themeType":2,"createTime":"2020-11-23T11:22:09.436+00:00","updateTime":"2020-12-03T02:59:01.870+00:00","stringThemeId":"11"}]}</msg>
-<status status="PASS" starttime="20210226 09:54:30.006" endtime="20210226 09:54:30.008"></status>
+<msg timestamp="20210226 10:19:50.324" level="INFO">{"code":200,"message":"request successful","data":[{"themeId":10,"themeCode":"1","themeName":"便民","icon":"group2/M00/0E/BB/wKgDZl_IVG2Ae6m8AAAFJu3KcwQ689.png","themeType":2,"createTime":"2020-10-20T08:32:06.805+00:00","updateTime":"2020-12-03T02:58:55.755+00:00","stringThemeId":"10"},{"themeId":11,"themeCode":"10006","themeName":"土地办理","icon":"group3/M00/0E/BB/wKgDZ1_IVHOAdcorAAADwTW7yGc646.png","themeType":2,"createTime":"2020-11-23T11:22:09.436+00:00","updateTime":"2020-12-03T02:59:01.870+00:00","stringThemeId":"11"}]}</msg>
+<status status="PASS" starttime="20210226 10:19:50.322" endtime="20210226 10:19:50.324"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -395,10 +395,10 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:30.009" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:50.324" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:30.008" endtime="20210226 09:54:30.009"></status>
+<status status="PASS" starttime="20210226 10:19:50.324" endtime="20210226 10:19:50.324"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -406,18 +406,18 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:30.009" endtime="20210226 09:54:30.009"></status>
+<status status="PASS" starttime="20210226 10:19:50.325" endtime="20210226 10:19:50.325"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:28.954" endtime="20210226 09:54:30.009" critical="yes"></status>
+<status status="PASS" starttime="20210226 10:19:49.283" endtime="20210226 10:19:50.325" critical="yes"></status>
 </test>
-<test id="s1-t5" name="itemsList #post 获取主题列表">
+<test id="s1-t5" name="itemsList #post 循环获取主题code">
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.010" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 09:54:30.010" endtime="20210226 09:54:31.010"></status>
+<msg timestamp="20210226 10:19:51.327" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210226 10:19:50.326" endtime="20210226 10:19:51.327"></status>
 </kw>
 <kw name="${themeCode} IN [ 005 | 010 | 015 | 020 | 025 ]" type="for">
 <kw name="${themeCode} = 005" type="foritem">
@@ -427,7 +427,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.010" endtime="20210226 09:54:31.022"></status>
+<status status="PASS" starttime="20210226 10:19:51.327" endtime="20210226 10:19:51.338"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -437,8 +437,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${token}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.022" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:31.022" endtime="20210226 09:54:31.022"></status>
+<msg timestamp="20210226 10:19:51.339" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:51.338" endtime="20210226 10:19:51.339"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -448,8 +448,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${themeCode}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.022" level="INFO">${themeCode} = None</msg>
-<status status="PASS" starttime="20210226 09:54:31.022" endtime="20210226 09:54:31.022"></status>
+<msg timestamp="20210226 10:19:51.339" level="INFO">${themeCode} = None</msg>
+<status status="PASS" starttime="20210226 10:19:51.339" endtime="20210226 10:19:51.339"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -459,8 +459,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${headers}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.023" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'}</msg>
-<status status="PASS" starttime="20210226 09:54:31.022" endtime="20210226 09:54:31.023"></status>
+<msg timestamp="20210226 10:19:51.339" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:51.339" endtime="20210226 10:19:51.339"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -469,8 +469,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>http://121.30.189.198:14355</arg>
 <arg>${headers}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.023" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:31.023" endtime="20210226 09:54:31.023"></status>
+<msg timestamp="20210226 10:19:51.340" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:51.340" endtime="20210226 10:19:51.340"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -486,8 +486,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${data}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.024" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': None, 'itemTypeCode': ''}</msg>
-<status status="PASS" starttime="20210226 09:54:31.023" endtime="20210226 09:54:31.024"></status>
+<msg timestamp="20210226 10:19:51.340" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': None, 'itemTypeCode': ''}</msg>
+<status status="PASS" starttime="20210226 10:19:51.340" endtime="20210226 10:19:51.340"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -499,41 +499,41 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.203" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
+<msg timestamp="20210226 10:19:51.518" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
  path_url=/approval-project/itemsList/example/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN', 'Content-Length': '71', 'Content-Type': 'application/x-www-form-urlencoded'} 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb', 'Content-Length': '71', 'Content-Type': 'application/x-www-form-urlencoded'} 
  body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;itemTypeCode= 
  </msg>
-<msg timestamp="20210226 09:54:31.222" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
+<msg timestamp="20210226 10:19:51.536" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:29 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:49 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
  body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}} 
  </msg>
-<msg timestamp="20210226 09:54:31.222" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:31.024" endtime="20210226 09:54:31.222"></status>
+<msg timestamp="20210226 10:19:51.536" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:51.340" endtime="20210226 10:19:51.536"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.222" endtime="20210226 09:54:31.222"></status>
+<status status="PASS" starttime="20210226 10:19:51.536" endtime="20210226 10:19:51.536"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.222" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 09:54:31.222" endtime="20210226 09:54:31.223"></status>
+<msg timestamp="20210226 10:19:51.537" level="INFO">200</msg>
+<status status="PASS" starttime="20210226 10:19:51.537" endtime="20210226 10:19:51.537"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.text}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.240" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 09:54:31.223" endtime="20210226 09:54:31.240"></status>
+<msg timestamp="20210226 10:19:51.554" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
+<status status="PASS" starttime="20210226 10:19:51.537" endtime="20210226 10:19:51.555"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -541,10 +541,10 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.241" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:51.555" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:31.240" endtime="20210226 09:54:31.241"></status>
+<status status="PASS" starttime="20210226 10:19:51.555" endtime="20210226 10:19:51.555"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -552,9 +552,9 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.241" endtime="20210226 09:54:31.241"></status>
+<status status="PASS" starttime="20210226 10:19:51.555" endtime="20210226 10:19:51.555"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:31.010" endtime="20210226 09:54:31.241"></status>
+<status status="PASS" starttime="20210226 10:19:51.327" endtime="20210226 10:19:51.555"></status>
 </kw>
 <kw name="${themeCode} = 010" type="foritem">
 <kw name="Open Workbook" library="ExcellentLibrary">
@@ -563,7 +563,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.241" endtime="20210226 09:54:31.252"></status>
+<status status="PASS" starttime="20210226 10:19:51.556" endtime="20210226 10:19:51.566"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -573,8 +573,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${token}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.253" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:31.253" endtime="20210226 09:54:31.253"></status>
+<msg timestamp="20210226 10:19:51.567" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:51.567" endtime="20210226 10:19:51.567"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -584,8 +584,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${themeCode}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.253" level="INFO">${themeCode} = None</msg>
-<status status="PASS" starttime="20210226 09:54:31.253" endtime="20210226 09:54:31.253"></status>
+<msg timestamp="20210226 10:19:51.567" level="INFO">${themeCode} = None</msg>
+<status status="PASS" starttime="20210226 10:19:51.567" endtime="20210226 10:19:51.567"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -595,8 +595,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${headers}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.253" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'}</msg>
-<status status="PASS" starttime="20210226 09:54:31.253" endtime="20210226 09:54:31.253"></status>
+<msg timestamp="20210226 10:19:51.567" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:51.567" endtime="20210226 10:19:51.568"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -605,8 +605,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>http://121.30.189.198:14355</arg>
 <arg>${headers}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.254" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:31.254" endtime="20210226 09:54:31.254"></status>
+<msg timestamp="20210226 10:19:51.568" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:51.568" endtime="20210226 10:19:51.568"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -622,8 +622,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${data}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.254" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': None, 'itemTypeCode': ''}</msg>
-<status status="PASS" starttime="20210226 09:54:31.254" endtime="20210226 09:54:31.254"></status>
+<msg timestamp="20210226 10:19:51.568" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': None, 'itemTypeCode': ''}</msg>
+<status status="PASS" starttime="20210226 10:19:51.568" endtime="20210226 10:19:51.568"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -635,41 +635,41 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.434" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
+<msg timestamp="20210226 10:19:51.744" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
  path_url=/approval-project/itemsList/example/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN', 'Content-Length': '71', 'Content-Type': 'application/x-www-form-urlencoded'} 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb', 'Content-Length': '71', 'Content-Type': 'application/x-www-form-urlencoded'} 
  body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;itemTypeCode= 
  </msg>
-<msg timestamp="20210226 09:54:31.452" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
+<msg timestamp="20210226 10:19:51.761" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:29 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:49 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
  body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}} 
  </msg>
-<msg timestamp="20210226 09:54:31.452" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:31.254" endtime="20210226 09:54:31.452"></status>
+<msg timestamp="20210226 10:19:51.761" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:51.569" endtime="20210226 10:19:51.761"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.452" endtime="20210226 09:54:31.452"></status>
+<status status="PASS" starttime="20210226 10:19:51.761" endtime="20210226 10:19:51.762"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.453" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 09:54:31.452" endtime="20210226 09:54:31.453"></status>
+<msg timestamp="20210226 10:19:51.762" level="INFO">200</msg>
+<status status="PASS" starttime="20210226 10:19:51.762" endtime="20210226 10:19:51.762"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.text}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.471" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 09:54:31.453" endtime="20210226 09:54:31.471"></status>
+<msg timestamp="20210226 10:19:51.780" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
+<status status="PASS" starttime="20210226 10:19:51.762" endtime="20210226 10:19:51.780"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -677,10 +677,10 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.471" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:51.780" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:31.471" endtime="20210226 09:54:31.471"></status>
+<status status="PASS" starttime="20210226 10:19:51.780" endtime="20210226 10:19:51.780"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -688,9 +688,9 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.471" endtime="20210226 09:54:31.472"></status>
+<status status="PASS" starttime="20210226 10:19:51.780" endtime="20210226 10:19:51.781"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:31.241" endtime="20210226 09:54:31.472"></status>
+<status status="PASS" starttime="20210226 10:19:51.556" endtime="20210226 10:19:51.781"></status>
 </kw>
 <kw name="${themeCode} = 015" type="foritem">
 <kw name="Open Workbook" library="ExcellentLibrary">
@@ -699,7 +699,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.472" endtime="20210226 09:54:31.483"></status>
+<status status="PASS" starttime="20210226 10:19:51.781" endtime="20210226 10:19:51.792"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -709,8 +709,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${token}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.483" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:31.483" endtime="20210226 09:54:31.483"></status>
+<msg timestamp="20210226 10:19:51.792" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:51.792" endtime="20210226 10:19:51.792"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -720,8 +720,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${themeCode}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.483" level="INFO">${themeCode} = None</msg>
-<status status="PASS" starttime="20210226 09:54:31.483" endtime="20210226 09:54:31.483"></status>
+<msg timestamp="20210226 10:19:51.793" level="INFO">${themeCode} = None</msg>
+<status status="PASS" starttime="20210226 10:19:51.792" endtime="20210226 10:19:51.793"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -731,8 +731,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${headers}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.484" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'}</msg>
-<status status="PASS" starttime="20210226 09:54:31.483" endtime="20210226 09:54:31.484"></status>
+<msg timestamp="20210226 10:19:51.793" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:51.793" endtime="20210226 10:19:51.793"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -741,8 +741,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>http://121.30.189.198:14355</arg>
 <arg>${headers}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.484" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:31.484" endtime="20210226 09:54:31.484"></status>
+<msg timestamp="20210226 10:19:51.793" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:51.793" endtime="20210226 10:19:51.793"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -758,8 +758,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${data}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.485" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': None, 'itemTypeCode': ''}</msg>
-<status status="PASS" starttime="20210226 09:54:31.484" endtime="20210226 09:54:31.485"></status>
+<msg timestamp="20210226 10:19:51.794" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': None, 'itemTypeCode': ''}</msg>
+<status status="PASS" starttime="20210226 10:19:51.793" endtime="20210226 10:19:51.794"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -771,41 +771,41 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.659" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
+<msg timestamp="20210226 10:19:51.969" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
  path_url=/approval-project/itemsList/example/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN', 'Content-Length': '71', 'Content-Type': 'application/x-www-form-urlencoded'} 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb', 'Content-Length': '71', 'Content-Type': 'application/x-www-form-urlencoded'} 
  body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;itemTypeCode= 
  </msg>
-<msg timestamp="20210226 09:54:31.677" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
+<msg timestamp="20210226 10:19:51.986" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:29 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:50 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
  body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}} 
  </msg>
-<msg timestamp="20210226 09:54:31.677" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:31.485" endtime="20210226 09:54:31.677"></status>
+<msg timestamp="20210226 10:19:51.986" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:51.794" endtime="20210226 10:19:51.986"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.677" endtime="20210226 09:54:31.678"></status>
+<status status="PASS" starttime="20210226 10:19:51.986" endtime="20210226 10:19:51.987"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.678" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 09:54:31.678" endtime="20210226 09:54:31.678"></status>
+<msg timestamp="20210226 10:19:51.987" level="INFO">200</msg>
+<status status="PASS" starttime="20210226 10:19:51.987" endtime="20210226 10:19:51.987"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.text}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.696" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 09:54:31.678" endtime="20210226 09:54:31.696"></status>
+<msg timestamp="20210226 10:19:52.005" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
+<status status="PASS" starttime="20210226 10:19:51.987" endtime="20210226 10:19:52.005"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -813,10 +813,10 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.696" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:52.005" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:31.696" endtime="20210226 09:54:31.696"></status>
+<status status="PASS" starttime="20210226 10:19:52.005" endtime="20210226 10:19:52.005"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -824,9 +824,9 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.696" endtime="20210226 09:54:31.697"></status>
+<status status="PASS" starttime="20210226 10:19:52.005" endtime="20210226 10:19:52.006"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:31.472" endtime="20210226 09:54:31.697"></status>
+<status status="PASS" starttime="20210226 10:19:51.781" endtime="20210226 10:19:52.006"></status>
 </kw>
 <kw name="${themeCode} = 020" type="foritem">
 <kw name="Open Workbook" library="ExcellentLibrary">
@@ -835,7 +835,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.697" endtime="20210226 09:54:31.708"></status>
+<status status="PASS" starttime="20210226 10:19:52.006" endtime="20210226 10:19:52.017"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -845,8 +845,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${token}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.708" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:31.708" endtime="20210226 09:54:31.708"></status>
+<msg timestamp="20210226 10:19:52.017" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:52.017" endtime="20210226 10:19:52.017"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -856,8 +856,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${themeCode}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.708" level="INFO">${themeCode} = None</msg>
-<status status="PASS" starttime="20210226 09:54:31.708" endtime="20210226 09:54:31.708"></status>
+<msg timestamp="20210226 10:19:52.017" level="INFO">${themeCode} = None</msg>
+<status status="PASS" starttime="20210226 10:19:52.017" endtime="20210226 10:19:52.017"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -867,8 +867,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${headers}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.709" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'}</msg>
-<status status="PASS" starttime="20210226 09:54:31.709" endtime="20210226 09:54:31.709"></status>
+<msg timestamp="20210226 10:19:52.018" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:52.018" endtime="20210226 10:19:52.018"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -877,8 +877,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>http://121.30.189.198:14355</arg>
 <arg>${headers}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.709" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:31.709" endtime="20210226 09:54:31.709"></status>
+<msg timestamp="20210226 10:19:52.018" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:52.018" endtime="20210226 10:19:52.018"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -894,8 +894,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${data}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.710" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': None, 'itemTypeCode': ''}</msg>
-<status status="PASS" starttime="20210226 09:54:31.709" endtime="20210226 09:54:31.710"></status>
+<msg timestamp="20210226 10:19:52.019" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': None, 'itemTypeCode': ''}</msg>
+<status status="PASS" starttime="20210226 10:19:52.018" endtime="20210226 10:19:52.019"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -907,41 +907,41 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.888" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
+<msg timestamp="20210226 10:19:52.195" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
  path_url=/approval-project/itemsList/example/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN', 'Content-Length': '71', 'Content-Type': 'application/x-www-form-urlencoded'} 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb', 'Content-Length': '71', 'Content-Type': 'application/x-www-form-urlencoded'} 
  body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;itemTypeCode= 
  </msg>
-<msg timestamp="20210226 09:54:31.905" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
+<msg timestamp="20210226 10:19:52.213" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:30 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:50 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
  body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}} 
  </msg>
-<msg timestamp="20210226 09:54:31.905" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:31.710" endtime="20210226 09:54:31.905"></status>
+<msg timestamp="20210226 10:19:52.214" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:52.019" endtime="20210226 10:19:52.214"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.905" endtime="20210226 09:54:31.905"></status>
+<status status="PASS" starttime="20210226 10:19:52.214" endtime="20210226 10:19:52.214"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.906" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 09:54:31.906" endtime="20210226 09:54:31.906"></status>
+<msg timestamp="20210226 10:19:52.214" level="INFO">200</msg>
+<status status="PASS" starttime="20210226 10:19:52.214" endtime="20210226 10:19:52.214"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.text}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.924" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 09:54:31.906" endtime="20210226 09:54:31.924"></status>
+<msg timestamp="20210226 10:19:52.231" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
+<status status="PASS" starttime="20210226 10:19:52.214" endtime="20210226 10:19:52.231"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -949,10 +949,10 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.924" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:52.232" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:31.924" endtime="20210226 09:54:31.924"></status>
+<status status="PASS" starttime="20210226 10:19:52.231" endtime="20210226 10:19:52.232"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -960,9 +960,9 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.924" endtime="20210226 09:54:31.925"></status>
+<status status="PASS" starttime="20210226 10:19:52.232" endtime="20210226 10:19:52.232"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:31.697" endtime="20210226 09:54:31.925"></status>
+<status status="PASS" starttime="20210226 10:19:52.006" endtime="20210226 10:19:52.232"></status>
 </kw>
 <kw name="${themeCode} = 025" type="foritem">
 <kw name="Open Workbook" library="ExcellentLibrary">
@@ -971,7 +971,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:31.925" endtime="20210226 09:54:31.939"></status>
+<status status="PASS" starttime="20210226 10:19:52.233" endtime="20210226 10:19:52.244"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -981,8 +981,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${token}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.940" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:31.939" endtime="20210226 09:54:31.940"></status>
+<msg timestamp="20210226 10:19:52.244" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:52.244" endtime="20210226 10:19:52.244"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -992,8 +992,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${themeCode}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.941" level="INFO">${themeCode} = None</msg>
-<status status="PASS" starttime="20210226 09:54:31.940" endtime="20210226 09:54:31.941"></status>
+<msg timestamp="20210226 10:19:52.244" level="INFO">${themeCode} = None</msg>
+<status status="PASS" starttime="20210226 10:19:52.244" endtime="20210226 10:19:52.244"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -1003,8 +1003,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${headers}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.941" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'}</msg>
-<status status="PASS" starttime="20210226 09:54:31.941" endtime="20210226 09:54:31.941"></status>
+<msg timestamp="20210226 10:19:52.245" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:52.244" endtime="20210226 10:19:52.245"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -1013,8 +1013,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>http://121.30.189.198:14355</arg>
 <arg>${headers}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:31.942" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:31.941" endtime="20210226 09:54:31.942"></status>
+<msg timestamp="20210226 10:19:52.245" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:52.245" endtime="20210226 10:19:52.245"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -1030,8 +1030,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${data}</var>
 </assign>
-<msg timestamp="20210226 09:54:31.942" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': None, 'itemTypeCode': ''}</msg>
-<status status="PASS" starttime="20210226 09:54:31.942" endtime="20210226 09:54:31.942"></status>
+<msg timestamp="20210226 10:19:52.246" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': None, 'itemTypeCode': ''}</msg>
+<status status="PASS" starttime="20210226 10:19:52.245" endtime="20210226 10:19:52.246"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -1043,41 +1043,41 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:32.128" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
+<msg timestamp="20210226 10:19:52.422" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
  path_url=/approval-project/itemsList/example/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN', 'Content-Length': '71', 'Content-Type': 'application/x-www-form-urlencoded'} 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb', 'Content-Length': '71', 'Content-Type': 'application/x-www-form-urlencoded'} 
  body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;itemTypeCode= 
  </msg>
-<msg timestamp="20210226 09:54:32.145" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
+<msg timestamp="20210226 10:19:52.439" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:30 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:50 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
  body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}} 
  </msg>
-<msg timestamp="20210226 09:54:32.146" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:31.942" endtime="20210226 09:54:32.146"></status>
+<msg timestamp="20210226 10:19:52.439" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:52.246" endtime="20210226 10:19:52.439"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:32.146" endtime="20210226 09:54:32.146"></status>
+<status status="PASS" starttime="20210226 10:19:52.439" endtime="20210226 10:19:52.440"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:32.146" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 09:54:32.146" endtime="20210226 09:54:32.146"></status>
+<msg timestamp="20210226 10:19:52.440" level="INFO">200</msg>
+<status status="PASS" starttime="20210226 10:19:52.440" endtime="20210226 10:19:52.440"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.text}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:32.163" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 09:54:32.146" endtime="20210226 09:54:32.163"></status>
+<msg timestamp="20210226 10:19:52.457" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":4,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null},{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null},{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null},{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
+<status status="PASS" starttime="20210226 10:19:52.440" endtime="20210226 10:19:52.457"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1085,10 +1085,10 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:32.163" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:52.457" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:32.163" endtime="20210226 09:54:32.163"></status>
+<status status="PASS" starttime="20210226 10:19:52.457" endtime="20210226 10:19:52.457"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1096,13 +1096,13 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:32.163" endtime="20210226 09:54:32.164"></status>
+<status status="PASS" starttime="20210226 10:19:52.457" endtime="20210226 10:19:52.458"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:31.925" endtime="20210226 09:54:32.164"></status>
+<status status="PASS" starttime="20210226 10:19:52.232" endtime="20210226 10:19:52.458"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:31.010" endtime="20210226 09:54:32.164"></status>
+<status status="PASS" starttime="20210226 10:19:51.327" endtime="20210226 10:19:52.458"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:30.009" endtime="20210226 09:54:32.164" critical="yes"></status>
+<status status="PASS" starttime="20210226 10:19:50.325" endtime="20210226 10:19:52.458" critical="yes"></status>
 </test>
 <test id="s1-t6" name="search #搜索功能">
 <kw name="Sleep" library="BuiltIn">
@@ -1110,8 +1110,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20210226 09:54:33.167" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 09:54:32.165" endtime="20210226 09:54:33.167"></status>
+<msg timestamp="20210226 10:19:53.461" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210226 10:19:52.459" endtime="20210226 10:19:53.461"></status>
 </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
@@ -1119,7 +1119,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:33.167" endtime="20210226 09:54:33.177"></status>
+<status status="PASS" starttime="20210226 10:19:53.461" endtime="20210226 10:19:53.472"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -1129,8 +1129,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${token}</var>
 </assign>
-<msg timestamp="20210226 09:54:33.178" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:33.177" endtime="20210226 09:54:33.178"></status>
+<msg timestamp="20210226 10:19:53.472" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:53.472" endtime="20210226 10:19:53.472"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -1140,8 +1140,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${headers}</var>
 </assign>
-<msg timestamp="20210226 09:54:33.178" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'}</msg>
-<status status="PASS" starttime="20210226 09:54:33.178" endtime="20210226 09:54:33.178"></status>
+<msg timestamp="20210226 10:19:53.473" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:53.473" endtime="20210226 10:19:53.473"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -1150,8 +1150,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>http://121.30.189.198:14355</arg>
 <arg>${headers}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:33.178" level="INFO">Creating Session using : alias=search, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:33.178" endtime="20210226 09:54:33.179"></status>
+<msg timestamp="20210226 10:19:53.473" level="INFO">Creating Session using : alias=search, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:53.473" endtime="20210226 10:19:53.473"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -1163,8 +1163,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${data}</var>
 </assign>
-<msg timestamp="20210226 09:54:33.179" level="INFO">${data} = {'pageNo': '0', 'itemListName': '注销', 'pageSize': '10'}</msg>
-<status status="PASS" starttime="20210226 09:54:33.179" endtime="20210226 09:54:33.179"></status>
+<msg timestamp="20210226 10:19:53.474" level="INFO">${data} = {'pageNo': '0', 'itemListName': '注销', 'pageSize': '10'}</msg>
+<status status="PASS" starttime="20210226 10:19:53.473" endtime="20210226 10:19:53.474"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -1176,18 +1176,18 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:33.244" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/name/0/10 
+<msg timestamp="20210226 10:19:53.536" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/name/0/10 
  path_url=/approval-project/itemsList/name/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN', 'Content-Length': '52', 'Content-Type': 'application/x-www-form-urlencoded'} 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb', 'Content-Length': '52', 'Content-Type': 'application/x-www-form-urlencoded'} 
  body=pageNo=0&amp;itemListName=%E6%B3%A8%E9%94%80&amp;pageSize=10 
  </msg>
-<msg timestamp="20210226 09:54:33.267" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/name/0/10 
+<msg timestamp="20210226 10:19:53.541" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/name/0/10 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:31 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:51 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
  body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}} 
  </msg>
-<msg timestamp="20210226 09:54:33.268" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:33.179" endtime="20210226 09:54:33.268"></status>
+<msg timestamp="20210226 10:19:53.541" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:53.474" endtime="20210226 10:19:53.541"></status>
 </kw>
 <kw name="Write To Cell" library="ExcellentLibrary">
 <doc>Writes a value to the supplied cell.</doc>
@@ -1195,37 +1195,37 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>B5</arg>
 <arg>${resp.json()['data']['resultList'][0]['itemsListId']}</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:33.268" endtime="20210226 09:54:33.269"></status>
+<status status="PASS" starttime="20210226 10:19:53.541" endtime="20210226 10:19:53.541"></status>
 </kw>
 <kw name="Save" library="ExcellentLibrary">
 <doc>Saves the changes to the currently active workbook.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:33.269" endtime="20210226 09:54:33.304"></status>
+<status status="PASS" starttime="20210226 10:19:53.541" endtime="20210226 10:19:53.564"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:33.304" endtime="20210226 09:54:33.304"></status>
+<status status="PASS" starttime="20210226 10:19:53.564" endtime="20210226 10:19:53.564"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:33.305" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 09:54:33.304" endtime="20210226 09:54:33.305"></status>
+<msg timestamp="20210226 10:19:53.565" level="INFO">200</msg>
+<status status="PASS" starttime="20210226 10:19:53.564" endtime="20210226 10:19:53.565"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.text}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:33.309" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 09:54:33.305" endtime="20210226 09:54:33.309"></status>
+<msg timestamp="20210226 10:19:53.570" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}}</msg>
+<status status="PASS" starttime="20210226 10:19:53.565" endtime="20210226 10:19:53.570"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1233,10 +1233,10 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:33.310" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:53.570" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:33.310" endtime="20210226 09:54:33.310"></status>
+<status status="PASS" starttime="20210226 10:19:53.570" endtime="20210226 10:19:53.570"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1244,9 +1244,9 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:33.310" endtime="20210226 09:54:33.310"></status>
+<status status="PASS" starttime="20210226 10:19:53.570" endtime="20210226 10:19:53.571"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:32.164" endtime="20210226 09:54:33.310" critical="yes"></status>
+<status status="PASS" starttime="20210226 10:19:52.458" endtime="20210226 10:19:53.571" critical="yes"></status>
 </test>
 <test id="s1-t7" name="info #详情">
 <kw name="Sleep" library="BuiltIn">
@@ -1254,8 +1254,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20210226 09:54:34.313" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 09:54:33.311" endtime="20210226 09:54:34.313"></status>
+<msg timestamp="20210226 10:19:54.573" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210226 10:19:53.572" endtime="20210226 10:19:54.573"></status>
 </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
@@ -1263,7 +1263,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:34.313" endtime="20210226 09:54:34.324"></status>
+<status status="PASS" starttime="20210226 10:19:54.573" endtime="20210226 10:19:54.585"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -1273,8 +1273,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${token}</var>
 </assign>
-<msg timestamp="20210226 09:54:34.325" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:34.324" endtime="20210226 09:54:34.325"></status>
+<msg timestamp="20210226 10:19:54.585" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:54.585" endtime="20210226 10:19:54.585"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -1284,8 +1284,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${itemsListId}</var>
 </assign>
-<msg timestamp="20210226 09:54:34.325" level="INFO">${itemsListId} = 45</msg>
-<status status="PASS" starttime="20210226 09:54:34.325" endtime="20210226 09:54:34.325"></status>
+<msg timestamp="20210226 10:19:54.585" level="INFO">${itemsListId} = 45</msg>
+<status status="PASS" starttime="20210226 10:19:54.585" endtime="20210226 10:19:54.585"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -1295,8 +1295,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${headers}</var>
 </assign>
-<msg timestamp="20210226 09:54:34.325" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'}</msg>
-<status status="PASS" starttime="20210226 09:54:34.325" endtime="20210226 09:54:34.325"></status>
+<msg timestamp="20210226 10:19:54.586" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:54.585" endtime="20210226 10:19:54.586"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -1305,8 +1305,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>http://121.30.189.198:14355/approval-project/itemsList</arg>
 <arg>${headers}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:34.326" level="INFO">Creating Session using : alias=info, url=http://121.30.189.198:14355/approval-project/itemsList, headers={'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:34.325" endtime="20210226 09:54:34.326"></status>
+<msg timestamp="20210226 10:19:54.586" level="INFO">Creating Session using : alias=info, url=http://121.30.189.198:14355/approval-project/itemsList, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:54.586" endtime="20210226 10:19:54.586"></status>
 </kw>
 <kw name="Get On Session" library="RequestsLibrary">
 <doc>Sends a GET request on a previously created HTTP Session.</doc>
@@ -1317,41 +1317,41 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:34.390" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/itemsList/info/45 
+<msg timestamp="20210226 10:19:54.649" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/itemsList/info/45 
  path_url=/approval-project/itemsList/info/45 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'} 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'} 
  body=None 
  </msg>
-<msg timestamp="20210226 09:54:34.395" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/itemsList/info/45 
+<msg timestamp="20210226 10:19:54.653" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/itemsList/info/45 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:32 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:52 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
  body={"code":200,"message":"request successful","data":{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}} 
  </msg>
-<msg timestamp="20210226 09:54:34.395" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:34.326" endtime="20210226 09:54:34.395"></status>
+<msg timestamp="20210226 10:19:54.653" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:54.586" endtime="20210226 10:19:54.653"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:34.395" endtime="20210226 09:54:34.395"></status>
+<status status="PASS" starttime="20210226 10:19:54.654" endtime="20210226 10:19:54.654"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:34.396" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 09:54:34.395" endtime="20210226 09:54:34.396"></status>
+<msg timestamp="20210226 10:19:54.654" level="INFO">200</msg>
+<status status="PASS" starttime="20210226 10:19:54.654" endtime="20210226 10:19:54.654"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.text}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:34.400" level="INFO">{"code":200,"message":"request successful","data":{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}}</msg>
-<status status="PASS" starttime="20210226 09:54:34.396" endtime="20210226 09:54:34.400"></status>
+<msg timestamp="20210226 10:19:54.659" level="INFO">{"code":200,"message":"request successful","data":{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}}</msg>
+<status status="PASS" starttime="20210226 10:19:54.654" endtime="20210226 10:19:54.659"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1359,10 +1359,10 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:34.401" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:54.659" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:34.400" endtime="20210226 09:54:34.401"></status>
+<status status="PASS" starttime="20210226 10:19:54.659" endtime="20210226 10:19:54.659"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1370,18 +1370,18 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:34.401" endtime="20210226 09:54:34.401"></status>
+<status status="PASS" starttime="20210226 10:19:54.659" endtime="20210226 10:19:54.660"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:33.311" endtime="20210226 09:54:34.401" critical="yes"></status>
+<status status="PASS" starttime="20210226 10:19:53.571" endtime="20210226 10:19:54.660" critical="yes"></status>
 </test>
-<test id="s1-t8" name="tree #问题列表">
+<test id="s1-t8" name="questionnaire #问题列表">
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20210226 09:54:35.404" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 09:54:34.402" endtime="20210226 09:54:35.404"></status>
+<msg timestamp="20210226 10:19:55.662" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210226 10:19:54.661" endtime="20210226 10:19:55.662"></status>
 </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
@@ -1389,7 +1389,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:35.404" endtime="20210226 09:54:35.415"></status>
+<status status="PASS" starttime="20210226 10:19:55.662" endtime="20210226 10:19:55.673"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -1399,8 +1399,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${token}</var>
 </assign>
-<msg timestamp="20210226 09:54:35.415" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN</msg>
-<status status="PASS" starttime="20210226 09:54:35.415" endtime="20210226 09:54:35.415"></status>
+<msg timestamp="20210226 10:19:55.673" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:55.673" endtime="20210226 10:19:55.673"></status>
 </kw>
 <kw name="Read From Cell" library="ExcellentLibrary">
 <doc>Reads the data from the cell identified by the given locator.</doc>
@@ -1410,8 +1410,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${itemsListId}</var>
 </assign>
-<msg timestamp="20210226 09:54:35.416" level="INFO">${itemsListId} = 45</msg>
-<status status="PASS" starttime="20210226 09:54:35.415" endtime="20210226 09:54:35.416"></status>
+<msg timestamp="20210226 10:19:55.674" level="INFO">${itemsListId} = 45</msg>
+<status status="PASS" starttime="20210226 10:19:55.673" endtime="20210226 10:19:55.674"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -1421,8 +1421,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${headers}</var>
 </assign>
-<msg timestamp="20210226 09:54:35.416" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'}</msg>
-<status status="PASS" starttime="20210226 09:54:35.416" endtime="20210226 09:54:35.416"></status>
+<msg timestamp="20210226 10:19:55.674" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:55.674" endtime="20210226 10:19:55.674"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -1431,8 +1431,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>http://121.30.189.198:14355</arg>
 <arg>${headers}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:35.416" level="INFO">Creating Session using : alias=question, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 09:54:35.416" endtime="20210226 09:54:35.416"></status>
+<msg timestamp="20210226 10:19:55.674" level="INFO">Creating Session using : alias=question, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:55.674" endtime="20210226 10:19:55.674"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
@@ -1442,8 +1442,8 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${data}</var>
 </assign>
-<msg timestamp="20210226 09:54:35.417" level="INFO">${data} = {'itemsListId': 45}</msg>
-<status status="PASS" starttime="20210226 09:54:35.417" endtime="20210226 09:54:35.417"></status>
+<msg timestamp="20210226 10:19:55.675" level="INFO">${data} = {'itemsListId': 45}</msg>
+<status status="PASS" starttime="20210226 10:19:55.674" endtime="20210226 10:19:55.675"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -1455,41 +1455,41 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 09:54:35.441" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/questionnaire/tree 
+<msg timestamp="20210226 10:19:55.695" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/questionnaire/tree 
  path_url=/approval-project/questionnaire/tree 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6s7LzFllpxLJCkNw4dEovbIVUYIl8/vX5o8W2jjTrOEN', 'Content-Length': '14', 'Content-Type': 'application/x-www-form-urlencoded'} 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb', 'Content-Length': '14', 'Content-Type': 'application/x-www-form-urlencoded'} 
  body=itemsListId=45 
  </msg>
-<msg timestamp="20210226 09:54:35.443" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/questionnaire/tree 
+<msg timestamp="20210226 10:19:55.698" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/questionnaire/tree 
  status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 01:54:33 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:53 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
  body={"code":200,"message":"request successful","data":[{"questionnaireId":45,"itemsListId":45,"questionnaireDesc":"请问您是否属于大型机构（中小学或医院）？","isOptions":0,"isRequire":0,"serialNumber":1,"parentId":0,"treeCode":"45","weight":1,"children":[{"questionnaireId":46,"itemsListId":45,"questionnaireDesc":"是","isOptions":1,"isRequire":0,"serialNumber":1,"parentId":45,"treeCode":"45_46","weight":1,"children":[]},{"questionnaireId":47,"itemsListId":45,"questionnaireDesc":"否","isOptions":1,"isRequire":0,"serialNumber":2,"parentId":45,"treeCode":"45_47","weight":2,"children":[]}]}]} 
  </msg>
-<msg timestamp="20210226 09:54:35.443" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:35.417" endtime="20210226 09:54:35.443"></status>
+<msg timestamp="20210226 10:19:55.698" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210226 10:19:55.675" endtime="20210226 10:19:55.698"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:35.443" endtime="20210226 09:54:35.444"></status>
+<status status="PASS" starttime="20210226 10:19:55.698" endtime="20210226 10:19:55.698"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:35.444" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 09:54:35.444" endtime="20210226 09:54:35.444"></status>
+<msg timestamp="20210226 10:19:55.698" level="INFO">200</msg>
+<status status="PASS" starttime="20210226 10:19:55.698" endtime="20210226 10:19:55.698"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${resp.text}</arg>
 </arguments>
-<msg timestamp="20210226 09:54:35.446" level="INFO">{"code":200,"message":"request successful","data":[{"questionnaireId":45,"itemsListId":45,"questionnaireDesc":"请问您是否属于大型机构（中小学或医院）？","isOptions":0,"isRequire":0,"serialNumber":1,"parentId":0,"treeCode":"45","weight":1,"children":[{"questionnaireId":46,"itemsListId":45,"questionnaireDesc":"是","isOptions":1,"isRequire":0,"serialNumber":1,"parentId":45,"treeCode":"45_46","weight":1,"children":[]},{"questionnaireId":47,"itemsListId":45,"questionnaireDesc":"否","isOptions":1,"isRequire":0,"serialNumber":2,"parentId":45,"treeCode":"45_47","weight":2,"children":[]}]}]}</msg>
-<status status="PASS" starttime="20210226 09:54:35.444" endtime="20210226 09:54:35.447"></status>
+<msg timestamp="20210226 10:19:55.701" level="INFO">{"code":200,"message":"request successful","data":[{"questionnaireId":45,"itemsListId":45,"questionnaireDesc":"请问您是否属于大型机构（中小学或医院）？","isOptions":0,"isRequire":0,"serialNumber":1,"parentId":0,"treeCode":"45","weight":1,"children":[{"questionnaireId":46,"itemsListId":45,"questionnaireDesc":"是","isOptions":1,"isRequire":0,"serialNumber":1,"parentId":45,"treeCode":"45_46","weight":1,"children":[]},{"questionnaireId":47,"itemsListId":45,"questionnaireDesc":"否","isOptions":1,"isRequire":0,"serialNumber":2,"parentId":45,"treeCode":"45_47","weight":2,"children":[]}]}]}</msg>
+<status status="PASS" starttime="20210226 10:19:55.698" endtime="20210226 10:19:55.701"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1497,10 +1497,10 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 09:54:35.447" level="INFO">Argument types are:
+<msg timestamp="20210226 10:19:55.701" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 09:54:35.447" endtime="20210226 09:54:35.447"></status>
+<status status="PASS" starttime="20210226 10:19:55.701" endtime="20210226 10:19:55.701"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1508,21 +1508,94 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 09:54:35.447" endtime="20210226 09:54:35.447"></status>
+<status status="PASS" starttime="20210226 10:19:55.701" endtime="20210226 10:19:55.702"></status>
 </kw>
-<status status="PASS" starttime="20210226 09:54:34.401" endtime="20210226 09:54:35.447" critical="yes"></status>
+<status status="PASS" starttime="20210226 10:19:54.660" endtime="20210226 10:19:55.702" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20210226 09:54:27.073" endtime="20210226 09:54:35.448"></status>
+<test id="s1-t9" name="department #部门列表">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20210226 10:19:56.704" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210226 10:19:55.703" endtime="20210226 10:19:56.704"></status>
+</kw>
+<kw name="Open Workbook" library="ExcellentLibrary">
+<doc>Opens the workbook found at the given file path.
+_NOTE_: Please note that at present _XLS_ files are not supported.</doc>
+<arguments>
+<arg>F:\\token.xlsx</arg>
+</arguments>
+<status status="PASS" starttime="20210226 10:19:56.704" endtime="20210226 10:19:56.715"></status>
+</kw>
+<kw name="Read From Cell" library="ExcellentLibrary">
+<doc>Reads the data from the cell identified by the given locator.</doc>
+<arguments>
+<arg>B4</arg>
+</arguments>
+<assign>
+<var>${token}</var>
+</assign>
+<msg timestamp="20210226 10:19:56.715" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb</msg>
+<status status="PASS" starttime="20210226 10:19:56.715" endtime="20210226 10:19:56.715"></status>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<arguments>
+<arg>token=${token}</arg>
+</arguments>
+<assign>
+<var>${headers}</var>
+</assign>
+<msg timestamp="20210226 10:19:56.715" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'}</msg>
+<status status="PASS" starttime="20210226 10:19:56.715" endtime="20210226 10:19:56.715"></status>
+</kw>
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>department</arg>
+<arg>http://121.30.189.198:5065</arg>
+<arg>${headers}</arg>
+</arguments>
+<msg timestamp="20210226 10:19:56.716" level="INFO">Creating Session using : alias=department, url=http://121.30.189.198:5065, headers={'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210226 10:19:56.715" endtime="20210226 10:19:56.716"></status>
+</kw>
+<kw name="Post On Session" library="RequestsLibrary">
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<arguments>
+<arg>department</arg>
+<arg>approval-project/department/tree</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20210226 10:19:56.731" level="INFO">POST Request : url=http://121.30.189.198:5065/approval-project/department/tree 
+ path_url=/approval-project/department/tree 
+ headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6kt7UTJh19bGk8UEtD86KRkPklBfIG8ituHcEZ9JnZYb', 'Content-Length': '0'} 
+ body=None 
+ </msg>
+<msg timestamp="20210226 10:19:56.731" level="INFO">POST Response : url=http://121.30.189.198:5065/approval-project/department/tree 
+ status=500, reason= 
+ headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 02:19:54 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
+ body={"timestamp":"2021-02-26T02:19:54.851+00:00","status":500,"error":"Internal Server Error","message":"","path":"/approval-project/department/tree"} 
+ </msg>
+<msg timestamp="20210226 10:19:56.732" level="FAIL">HTTPError: 500 Server Error:  for url: http://121.30.189.198:5065/approval-project/department/tree</msg>
+<status status="FAIL" starttime="20210226 10:19:56.716" endtime="20210226 10:19:56.732"></status>
+</kw>
+<status status="FAIL" starttime="20210226 10:19:55.702" endtime="20210226 10:19:56.733" critical="yes">HTTPError: 500 Server Error:  for url: http://121.30.189.198:5065/approval-project/department/tree</status>
+</test>
+<status status="FAIL" starttime="20210226 10:19:47.413" endtime="20210226 10:19:56.733"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="8" fail="0">Critical Tests</stat>
-<stat pass="8" fail="0">All Tests</stat>
+<stat pass="8" fail="1">Critical Tests</stat>
+<stat pass="8" fail="1">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="8" fail="0" id="s1" name="Approval Testsuit">Approval Testsuit</stat>
+<stat pass="8" fail="1" id="s1" name="Approval Testsuit">Approval Testsuit</stat>
 </suite>
 </statistics>
 <errors>
