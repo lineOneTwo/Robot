@@ -75,7 +75,7 @@ theme2 #get 获取法人下的所有主题
     Should Be Equal As Strings    ${resp.json()['message']}    request successful
 
 
-itemsList #post 获取主题列表
+itemsList #post 循环获取主题code
     sleep   1
     FOR  ${themeCode}   IN   005   010   015   020   025
         Open workbook   F:\\token.xlsx
@@ -155,7 +155,7 @@ info #详情
 #    shoule be equal as string   ${resp.json()['message']}   request successful
 
 
-tree #问题列表
+questionnaire #问题列表
     sleep   1
     Open workbook   F:\\token.xlsx
     ${token}     Read from cell    B4
@@ -171,3 +171,14 @@ tree #问题列表
     Should Be Equal As Strings    ${resp.json()['message']}    request successful
 
 
+department #部门列表
+    sleep  1
+    open workbook      F:\\token.xlsx
+    ${token}     read from cell     B4
+    ${headers}     create Dictionary    token=${token}
+    create session     department    http://121.30.189.198:5065   ${headers}
+    ${resp}       post on session    department   approval-project/department/tree
+    colse_workbook     F:\\token.xlsx
+    log     ${resp.status_code}
+    should be equal as string    ${resp.status_code}   200
+    should be equal as string    ${resp.json()['message']}      request successful
