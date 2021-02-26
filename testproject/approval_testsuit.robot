@@ -80,7 +80,6 @@ itemsList #post 循环获取主题code
     FOR  ${themeCode}   IN   005   010   015   020   025
         Open workbook   F:\\token.xlsx
         ${token}     Read from cell    B4
-        ${themeCode}      Read from cell    C1
         ${headers}    create Dictionary    token=${token}
         create session    itemlist    http://121.30.189.198:14355    ${headers}
         ${data}    create Dictionary    pageNo=0    departmentId=0    themeType=1    pageSize=10    itemName=     themeCode=${themeCode}     itemTypeCode=
@@ -124,6 +123,22 @@ info #详情
     Should Be Equal As Strings    ${resp.status_code}    200
     Should Be Equal As Strings    ${resp.json()['message']}    request successful
 
+
+questionnaire #问题列表
+    sleep   1
+    Open workbook   F:\\token.xlsx
+    ${token}     Read from cell    B4
+    ${itemsListId}     Read from cell    B5
+    ${headers}    create Dictionary    token=${token}
+    create session    question    http://121.30.189.198:14355    ${headers}
+    ${data}    create Dictionary      itemsListId=${itemsListId}
+    ${resp}    post on session    question    approval-project/questionnaire/tree    ${data}
+    close_workbook    F:\\token.xlsx
+    log    ${resp.status_code}
+    log    ${resp.text}
+    Should Be Equal As Strings    ${resp.status_code}    200
+    Should Be Equal As Strings    ${resp.json()['message']}    request successful
+
 # #传值正确，接口返回500，换新token可请求成功
 #handleItemFlow #办理环节
 #    sleep   1
@@ -155,30 +170,14 @@ info #详情
 #    shoule be equal as string   ${resp.json()['message']}   request successful
 
 
-questionnaire #问题列表
-    sleep   1
-    Open workbook   F:\\token.xlsx
-    ${token}     Read from cell    B4
-    ${itemsListId}     Read from cell    B5
-    ${headers}    create Dictionary    token=${token}
-    create session    question    http://121.30.189.198:14355    ${headers}
-    ${data}    create Dictionary      itemsListId=${itemsListId}
-    ${resp}    post on session    question    approval-project/questionnaire/tree    ${data}
-    close_workbook    F:\\token.xlsx
-    log    ${resp.status_code}
-    log    ${resp.text}
-    Should Be Equal As Strings    ${resp.status_code}    200
-    Should Be Equal As Strings    ${resp.json()['message']}    request successful
-
-
-department #部门列表
-    sleep  1
-    open workbook      F:\\token.xlsx
-    ${token}     read from cell     B4
-    ${headers}     create Dictionary    token=${token}
-    create session     department    http://121.30.189.198:5065   ${headers}
-    ${resp}       post on session    department   approval-project/department/tree
-    colse_workbook     F:\\token.xlsx
-    log     ${resp.status_code}
-    should be equal as string    ${resp.status_code}   200
-    should be equal as string    ${resp.json()['message']}      request successful
+#department #部门列表
+##    sleep   1
+#    open workbook      F:\\token.xlsx
+#    ${token}     read from cell     B4
+#    ${headers}     create Dictionary    token=${token}
+#    create session     department    http://121.30.189.198:5065   ${headers}
+#    ${resp}       post on session    department   approval-project/department/tree
+#    colse_workbook     F:\\token.xlsx
+#    log     ${resp.status_code}
+#    should be equal as string    ${resp.status_code}   200
+#    should be equal as string    ${resp.json()['message']}      request successful
