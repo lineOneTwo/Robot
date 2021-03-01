@@ -59,9 +59,14 @@ theme1 #get 获取自然人下的所有主题
     log    ${resp.text}
     Should Be Equal As Strings    ${resp.status_code}    200
     Should Be Equal As Strings    ${resp.json()['message']}    request successful
+    should be equal as numbers    ${resp.status_code}     200  #校验数值是否相等
+    should be equal as integers      ${resp.status_code}     12  #校验数值是否为整数
     should exist      F:\\token.xlsx  #校验本地文件是否存在
-    should match        ${resp.json()['data'][0]['themeName']}    生育收养
+    should not exist       F:\\token.xlsx  #校验本地文件是否不存在
+    should match        ${resp.json()['data'][0]['themeName']}    生育收养   #校验字符串是否正确
+    should not match     ${resp.json()['data'][0]['themeName']}    生育收养   #校验字符串是否不正确
     should not be empty    ${resp.json()['data'][0]['themeName']}  #校验字段值不为空
+    should be empty     ${resp.json()['data'][0]['themeName']}    #校验字段值为空
 
 
 theme2 #get 获取法人下的所有主题
