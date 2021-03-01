@@ -1,104 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20210226 11:53:25.466" rpa="false">
-<suite id="s1" name="Approval Testsuit" source="D:\Program Files\JetBrains\PyCharm Community Edition 2020.2\Robot\testproject\approval_testsuit.robot">
-<test id="s1-t1" name="test">
-<kw name="Create List" library="BuiltIn">
-<doc>Returns a list containing given items.</doc>
-<arguments>
-<arg>Star Trek</arg>
-<arg>Star Wars</arg>
-<arg>Perry Rhodan</arg>
-</arguments>
-<assign>
-<var>@{ITEMS}</var>
-</assign>
-<msg timestamp="20210226 11:53:26.219" level="INFO">@{ITEMS} = [ Star Trek | Star Wars | Perry Rhodan ]</msg>
-<status status="PASS" starttime="20210226 11:53:26.219" endtime="20210226 11:53:26.220"></status>
-</kw>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20210301 10:57:32.635" rpa="false">
+ <suite id="s1" name="Approval Testsuit"
+        source="D:\Program Files\JetBrains\PyCharm Community Edition 2020.2\Robot\testproject\approval_testsuit.robot">
+  <test id="s1-t1" name="test">
+   <kw name="Create List" library="BuiltIn">
+    <doc>Returns a list containing given items.</doc>
+    <arguments>
+     <arg>Star Trek</arg>
+     <arg>Star Wars</arg>
+     <arg>Perry Rhodan</arg>
+    </arguments>
+    <assign>
+     <var>@{ITEMS}</var>
+    </assign>
+    <msg timestamp="20210301 10:57:33.391" level="INFO">@{ITEMS} = [ Star Trek | Star Wars | Perry Rhodan ]</msg>
+    <status status="PASS" starttime="20210301 10:57:33.391" endtime="20210301 10:57:33.391"></status>
+   </kw>
 <kw name="${ELEMENT} IN [ @{ITEMS} ]" type="for">
 <kw name="${ELEMENT} = Star Trek" type="foritem">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${ELEMENT}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:26.220" level="INFO">Star Trek</msg>
-<status status="PASS" starttime="20210226 11:53:26.220" endtime="20210226 11:53:26.220"></status>
-</kw>
-<status status="PASS" starttime="20210226 11:53:26.220" endtime="20210226 11:53:26.220"></status>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${ELEMENT}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:33.392" level="INFO">Star Trek</msg>
+  <status status="PASS" starttime="20210301 10:57:33.392" endtime="20210301 10:57:33.392"></status>
+ </kw>
+ <status status="PASS" starttime="20210301 10:57:33.391" endtime="20210301 10:57:33.392"></status>
 </kw>
 <kw name="${ELEMENT} = Star Wars" type="foritem">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${ELEMENT}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:26.220" level="INFO">Star Wars</msg>
-<status status="PASS" starttime="20210226 11:53:26.220" endtime="20210226 11:53:26.221"></status>
-</kw>
-<status status="PASS" starttime="20210226 11:53:26.220" endtime="20210226 11:53:26.221"></status>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${ELEMENT}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:33.392" level="INFO">Star Wars</msg>
+  <status status="PASS" starttime="20210301 10:57:33.392" endtime="20210301 10:57:33.392"></status>
+ </kw>
+ <status status="PASS" starttime="20210301 10:57:33.392" endtime="20210301 10:57:33.392"></status>
 </kw>
 <kw name="${ELEMENT} = Perry Rhodan" type="foritem">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${ELEMENT}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:26.221" level="INFO">Perry Rhodan</msg>
-<status status="PASS" starttime="20210226 11:53:26.221" endtime="20210226 11:53:26.221"></status>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${ELEMENT}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:33.393" level="INFO">Perry Rhodan</msg>
+  <status status="PASS" starttime="20210301 10:57:33.393" endtime="20210301 10:57:33.393"></status>
+ </kw>
+ <status status="PASS" starttime="20210301 10:57:33.393" endtime="20210301 10:57:33.393"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:26.221" endtime="20210226 11:53:26.221"></status>
-</kw>
-<status status="PASS" starttime="20210226 11:53:26.220" endtime="20210226 11:53:26.221"></status>
+ <status status="PASS" starttime="20210301 10:57:33.391" endtime="20210301 10:57:33.393"></status>
 </kw>
 <kw name="${ELEMENT} IN [ Star Trek | Star Wars | Perry Rhodan ]" type="for">
 <kw name="${ELEMENT} = Star Trek" type="foritem">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${ELEMENT}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:26.221" level="INFO">Star Trek</msg>
-<status status="PASS" starttime="20210226 11:53:26.221" endtime="20210226 11:53:26.221"></status>
-</kw>
-<status status="PASS" starttime="20210226 11:53:26.221" endtime="20210226 11:53:26.221"></status>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${ELEMENT}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:33.393" level="INFO">Star Trek</msg>
+  <status status="PASS" starttime="20210301 10:57:33.393" endtime="20210301 10:57:33.394"></status>
+ </kw>
+ <status status="PASS" starttime="20210301 10:57:33.393" endtime="20210301 10:57:33.394"></status>
 </kw>
 <kw name="${ELEMENT} = Star Wars" type="foritem">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${ELEMENT}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:26.222" level="INFO">Star Wars</msg>
-<status status="PASS" starttime="20210226 11:53:26.221" endtime="20210226 11:53:26.222"></status>
-</kw>
-<status status="PASS" starttime="20210226 11:53:26.221" endtime="20210226 11:53:26.222"></status>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${ELEMENT}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:33.394" level="INFO">Star Wars</msg>
+  <status status="PASS" starttime="20210301 10:57:33.394" endtime="20210301 10:57:33.394"></status>
+ </kw>
+ <status status="PASS" starttime="20210301 10:57:33.394" endtime="20210301 10:57:33.394"></status>
 </kw>
 <kw name="${ELEMENT} = Perry Rhodan" type="foritem">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${ELEMENT}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:26.222" level="INFO">Perry Rhodan</msg>
-<status status="PASS" starttime="20210226 11:53:26.222" endtime="20210226 11:53:26.222"></status>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${ELEMENT}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:33.394" level="INFO">Perry Rhodan</msg>
+  <status status="PASS" starttime="20210301 10:57:33.394" endtime="20210301 10:57:33.394"></status>
+ </kw>
+ <status status="PASS" starttime="20210301 10:57:33.394" endtime="20210301 10:57:33.394"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:26.222" endtime="20210226 11:53:26.222"></status>
+ <status status="PASS" starttime="20210301 10:57:33.393" endtime="20210301 10:57:33.394"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:26.221" endtime="20210226 11:53:26.222"></status>
-</kw>
-<status status="PASS" starttime="20210226 11:53:26.219" endtime="20210226 11:53:26.222" critical="yes"></status>
+   <status status="PASS" starttime="20210301 10:57:33.391" endtime="20210301 10:57:33.394" critical="yes"></status>
 </test>
 <test id="s1-t2" name="index #获取token 获取json串的值">
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>local</arg>
-<arg>http://121.30.189.198:14355/approval-project</arg>
-</arguments>
-<msg timestamp="20210226 11:53:26.223" level="INFO">Creating Session using : alias=local, url=http://121.30.189.198:14355/approval-project, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:26.223" endtime="20210226 11:53:26.224"></status>
-</kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>local</arg>
+   <arg>http://121.30.189.198:14355/approval-project</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:33.395" level="INFO">Creating Session using : alias=local,
+   url=http://121.30.189.198:14355/approval-project, headers={}, cookies={}, auth=None, timeout=None, proxies=None,
+   verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:33.395" endtime="20210301 10:57:33.396"></status>
+ </kw>
 <kw name="Get On Session" library="RequestsLibrary">
 <doc>Sends a GET request on a previously created HTTP Session.</doc>
 <arguments>
@@ -108,45 +112,52 @@
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:26.248" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/index 
- path_url=/approval-project/index 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
- body=None 
+ <msg timestamp="20210301 10:57:33.419" level="INFO">GET Request :
+  url=http://121.30.189.198:14355/approval-project/index
+  path_url=/approval-project/index
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive'}
+  body=None
  </msg>
-<msg timestamp="20210226 11:53:26.253" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/index 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:24 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":{"token":"NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ","powerMenuList":[{"treeId":63,"treeParentId":0,"treeLevel":1,"childrenList":[{"treeId":64,"treeParentId":63,"treeLevel":2,"childrenList":null,"menuId":64,"menuName":"事项栏目","menuOrderWeight":0,"treePathEnum":"63_64","menuType":1,"menuIcon":"","menuRoutePath":"/matterManage"},{"treeId":65,"treeParentId":63,"treeLevel":2,"childrenList":null,"menuId":65,"menuName":"事项清单","menuOrderWeight":0,"treePathEnum":"63_65","menuType":1,"menuIcon":"","menuRoutePath":"/inventory"}],"menuId":63,"menuName":"事项管理","menuOrderWeight":98,"treePathEnum":"63","menuType":1,"menuIcon":"icon-matter","menuRoutePath":"//"},{"treeId":29,"treeParentId":0,"treeLevel":1,"childrenList":null,"menuId":29,"menuName":"部门管理","menuOrderWeight":4,"treePathEnum":"29","menuType":1,"menuIcon":"icon-department","menuRoutePath":"/departmentMatters"},{"treeId":40,"treeParentId":0,"treeLevel":1,"childrenList":null,"menuId":40,"menuName":"问题库","menuOrderWeight":0,"treePathEnum":"40","menuType":1,"menuIcon":"icon-question","menuRoutePath":"/questionBank"}],"powerButtonList":[]}} 
+ <msg timestamp="20210301 10:57:33.423" level="INFO">GET Response :
+  url=http://121.30.189.198:14355/approval-project/index
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:33 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":{"token":"yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD","powerMenuList":[{"treeId":63,"treeParentId":0,"treeLevel":1,"childrenList":[{"treeId":64,"treeParentId":63,"treeLevel":2,"childrenList":null,"menuId":64,"menuName":"事项栏目","menuOrderWeight":0,"treePathEnum":"63_64","menuType":1,"menuIcon":"","menuRoutePath":"/matterManage"},{"treeId":65,"treeParentId":63,"treeLevel":2,"childrenList":null,"menuId":65,"menuName":"事项清单","menuOrderWeight":0,"treePathEnum":"63_65","menuType":1,"menuIcon":"","menuRoutePath":"/inventory"}],"menuId":63,"menuName":"事项管理","menuOrderWeight":98,"treePathEnum":"63","menuType":1,"menuIcon":"icon-matter","menuRoutePath":"//"},{"treeId":29,"treeParentId":0,"treeLevel":1,"childrenList":null,"menuId":29,"menuName":"部门管理","menuOrderWeight":4,"treePathEnum":"29","menuType":1,"menuIcon":"icon-department","menuRoutePath":"/departmentMatters"},{"treeId":40,"treeParentId":0,"treeLevel":1,"childrenList":null,"menuId":40,"menuName":"问题库","menuOrderWeight":0,"treePathEnum":"40","menuType":1,"menuIcon":"icon-question","menuRoutePath":"/questionBank"}],"powerButtonList":[]}}
  </msg>
-<msg timestamp="20210226 11:53:26.253" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:26.224" endtime="20210226 11:53:26.253"></status>
+ <msg timestamp="20210301 10:57:33.423" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:33.396" endtime="20210301 10:57:33.423"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.json()['data']['powerMenuList'][0]['menuName']}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:26.253" level="INFO">事项管理</msg>
-<status status="PASS" starttime="20210226 11:53:26.253" endtime="20210226 11:53:26.254"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.json()['data']['token']}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:26.254" level="INFO">NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:26.254" endtime="20210226 11:53:26.254"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.json()['data']['powerMenuList'][0]['menuName']}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:33.423" level="INFO">事项管理</msg>
+  <status status="PASS" starttime="20210301 10:57:33.423" endtime="20210301 10:57:33.424"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.json()['data']['token']}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:33.424" level="INFO">yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:33.424" endtime="20210301 10:57:33.424"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:26.254" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:26.254" endtime="20210226 11:53:26.254"></status>
+ <msg timestamp="20210301 10:57:33.424" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:33.424" endtime="20210301 10:57:33.424"></status>
 </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
@@ -154,7 +165,7 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:26.254" endtime="20210226 11:53:26.266"></status>
+ <status status="PASS" starttime="20210301 10:57:33.424" endtime="20210301 10:57:33.436"></status>
 </kw>
 <kw name="Write To Cell" library="ExcellentLibrary">
 <doc>Writes a value to the supplied cell.</doc>
@@ -162,73 +173,81 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>B4</arg>
 <arg>${resp.json()['data']['token']}</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:26.266" endtime="20210226 11:53:26.267"></status>
+ <status status="PASS" starttime="20210301 10:57:33.436" endtime="20210301 10:57:33.437"></status>
 </kw>
 <kw name="Save" library="ExcellentLibrary">
 <doc>Saves the changes to the currently active workbook.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:26.267" endtime="20210226 11:53:26.291"></status>
+ <status status="PASS" starttime="20210301 10:57:33.437" endtime="20210301 10:57:33.461"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:26.291" endtime="20210226 11:53:26.291"></status>
+ <status status="PASS" starttime="20210301 10:57:33.461" endtime="20210301 10:57:33.461"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:26.222" endtime="20210226 11:53:26.291" critical="yes"></status>
+ <status status="PASS" starttime="20210301 10:57:33.395" endtime="20210301 10:57:33.461" critical="yes"></status>
 </test>
 <test id="s1-t3" name="theme1 #get 获取自然人下的所有主题">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>1</arg>
-</arguments>
-<msg timestamp="20210226 11:53:27.294" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 11:53:26.293" endtime="20210226 11:53:27.294"></status>
-</kw>
+ <kw name="Sleep" library="BuiltIn">
+  <doc>Pauses the test executed for the given time.</doc>
+  <arguments>
+   <arg>1</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:34.464" level="INFO">Slept 1 second</msg>
+  <status status="PASS" starttime="20210301 10:57:33.463" endtime="20210301 10:57:34.464"></status>
+ </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
 _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:27.294" endtime="20210226 11:53:27.305"></status>
+ <status status="PASS" starttime="20210301 10:57:34.464" endtime="20210301 10:57:34.475"></status>
 </kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B4</arg>
-</arguments>
-<assign>
-<var>${token}</var>
-</assign>
-<msg timestamp="20210226 11:53:27.305" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:27.305" endtime="20210226 11:53:27.305"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>token=${token}</arg>
-</arguments>
-<assign>
-<var>${headers}</var>
-</assign>
-<msg timestamp="20210226 11:53:27.306" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'}</msg>
-<status status="PASS" starttime="20210226 11:53:27.305" endtime="20210226 11:53:27.306"></status>
-</kw>
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>local</arg>
-<arg>http://121.30.189.198:14355/approval-project/theme</arg>
-<arg>${headers}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:27.306" level="INFO">Creating Session using : alias=local, url=http://121.30.189.198:14355/approval-project/theme, headers={'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:27.306" endtime="20210226 11:53:27.306"></status>
-</kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B4</arg>
+  </arguments>
+  <assign>
+   <var>${token}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:34.475" level="INFO">${token} =
+   yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:34.475" endtime="20210301 10:57:34.475"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>token=${token}</arg>
+  </arguments>
+  <assign>
+   <var>${headers}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:34.475" level="INFO">${headers} = {'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:34.475" endtime="20210301 10:57:34.476"></status>
+ </kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>local</arg>
+   <arg>http://121.30.189.198:14355/approval-project/theme</arg>
+   <arg>${headers}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:34.476" level="INFO">Creating Session using : alias=local,
+   url=http://121.30.189.198:14355/approval-project/theme, headers={'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}, cookies={}, auth=None, timeout=None,
+   proxies=None, verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:34.476" endtime="20210301 10:57:34.476"></status>
+ </kw>
 <kw name="Get On Session" library="RequestsLibrary">
 <doc>Sends a GET request on a previously created HTTP Session.</doc>
 <arguments>
@@ -238,112 +257,154 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:27.328" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/theme/1 
- path_url=/approval-project/theme/1 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'} 
- body=None 
+ <msg timestamp="20210301 10:57:34.497" level="INFO">GET Request :
+  url=http://121.30.189.198:14355/approval-project/theme/1
+  path_url=/approval-project/theme/1
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive', 'token': 'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  body=None
  </msg>
-<msg timestamp="20210226 11:53:27.332" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/theme/1 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:25 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":[{"themeId":1,"themeCode":"005","themeName":"生育收养","icon":"group1/M00/0E/BB/wKgDZV_IU9-AQtDmAAAGKK1vgVU240.png","themeType":1,"createTime":"2020-09-25T01:57:43.453+00:00","updateTime":"2020-12-03T02:56:34.277+00:00","stringThemeId":"1"},{"themeId":2,"themeCode":"010","themeName":"户籍办理","icon":"group3/M00/0E/BB/wKgDZ1_IVOuAT60_AAAEd4tuIGg981.png","themeType":1,"createTime":"2020-09-25T01:57:53.154+00:00","updateTime":"2020-12-03T03:01:01.805+00:00","stringThemeId":"2"},{"themeId":3,"themeCode":"015","themeName":"民族宗教","icon":"group2/M00/0E/BB/wKgDZl_IVI-ALHAuAAAFNoshNrQ926.png","themeType":1,"createTime":"2020-09-25T01:58:05.699+00:00","updateTime":"2020-12-03T02:59:30.260+00:00","stringThemeId":"3"},{"themeId":4,"themeCode":"020","themeName":"教育科研","icon":"group1/M00/0E/BB/wKgDZV_IVPKAbu5yAAAEZbKjN2U486.png","themeType":1,"createTime":"2020-09-25T01:58:17.253+00:00","updateTime":"2020-12-03T03:01:09.305+00:00","stringThemeId":"4"},{"themeId":5,"themeCode":"025","themeName":"入伍服役","icon":"group1/M00/0E/BB/wKgDZV_IVIeAW5a1AAAE4kGHtWc550.png","themeType":1,"createTime":"2020-09-25T01:58:46.540+00:00","updateTime":"2020-12-03T02:59:21.845+00:00","stringThemeId":"5"}]} 
+ <msg timestamp="20210301 10:57:34.501" level="INFO">GET Response :
+  url=http://121.30.189.198:14355/approval-project/theme/1
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:34 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":[{"themeId":1,"themeCode":"005","themeName":"生育收养","icon":"group1/M00/0E/BB/wKgDZV_IU9-AQtDmAAAGKK1vgVU240.png","themeType":1,"createTime":"2020-09-25T01:57:43.453+00:00","updateTime":"2020-12-03T02:56:34.277+00:00","stringThemeId":"1"},{"themeId":2,"themeCode":"010","themeName":"户籍办理","icon":"group3/M00/0E/BB/wKgDZ1_IVOuAT60_AAAEd4tuIGg981.png","themeType":1,"createTime":"2020-09-25T01:57:53.154+00:00","updateTime":"2020-12-03T03:01:01.805+00:00","stringThemeId":"2"},{"themeId":3,"themeCode":"015","themeName":"民族宗教","icon":"group2/M00/0E/BB/wKgDZl_IVI-ALHAuAAAFNoshNrQ926.png","themeType":1,"createTime":"2020-09-25T01:58:05.699+00:00","updateTime":"2020-12-03T02:59:30.260+00:00","stringThemeId":"3"},{"themeId":4,"themeCode":"020","themeName":"教育科研","icon":"group1/M00/0E/BB/wKgDZV_IVPKAbu5yAAAEZbKjN2U486.png","themeType":1,"createTime":"2020-09-25T01:58:17.253+00:00","updateTime":"2020-12-03T03:01:09.305+00:00","stringThemeId":"4"},{"themeId":5,"themeCode":"025","themeName":"入伍服役","icon":"group1/M00/0E/BB/wKgDZV_IVIeAW5a1AAAE4kGHtWc550.png","themeType":1,"createTime":"2020-09-25T01:58:46.540+00:00","updateTime":"2020-12-03T02:59:21.845+00:00","stringThemeId":"5"}]}
  </msg>
-<msg timestamp="20210226 11:53:27.332" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:27.306" endtime="20210226 11:53:27.332"></status>
+ <msg timestamp="20210301 10:57:34.501" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:34.476" endtime="20210301 10:57:34.501"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:27.332" endtime="20210226 11:53:27.332"></status>
+ <status status="PASS" starttime="20210301 10:57:34.501" endtime="20210301 10:57:34.501"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.status_code}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:27.333" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 11:53:27.332" endtime="20210226 11:53:27.333"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.text}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:27.336" level="INFO">{"code":200,"message":"request successful","data":[{"themeId":1,"themeCode":"005","themeName":"生育收养","icon":"group1/M00/0E/BB/wKgDZV_IU9-AQtDmAAAGKK1vgVU240.png","themeType":1,"createTime":"2020-09-25T01:57:43.453+00:00","updateTime":"2020-12-03T02:56:34.277+00:00","stringThemeId":"1"},{"themeId":2,"themeCode":"010","themeName":"户籍办理","icon":"group3/M00/0E/BB/wKgDZ1_IVOuAT60_AAAEd4tuIGg981.png","themeType":1,"createTime":"2020-09-25T01:57:53.154+00:00","updateTime":"2020-12-03T03:01:01.805+00:00","stringThemeId":"2"},{"themeId":3,"themeCode":"015","themeName":"民族宗教","icon":"group2/M00/0E/BB/wKgDZl_IVI-ALHAuAAAFNoshNrQ926.png","themeType":1,"createTime":"2020-09-25T01:58:05.699+00:00","updateTime":"2020-12-03T02:59:30.260+00:00","stringThemeId":"3"},{"themeId":4,"themeCode":"020","themeName":"教育科研","icon":"group1/M00/0E/BB/wKgDZV_IVPKAbu5yAAAEZbKjN2U486.png","themeType":1,"createTime":"2020-09-25T01:58:17.253+00:00","updateTime":"2020-12-03T03:01:09.305+00:00","stringThemeId":"4"},{"themeId":5,"themeCode":"025","themeName":"入伍服役","icon":"group1/M00/0E/BB/wKgDZV_IVIeAW5a1AAAE4kGHtWc550.png","themeType":1,"createTime":"2020-09-25T01:58:46.540+00:00","updateTime":"2020-12-03T02:59:21.845+00:00","stringThemeId":"5"}]}</msg>
-<status status="PASS" starttime="20210226 11:53:27.333" endtime="20210226 11:53:27.337"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.status_code}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:34.502" level="INFO">200</msg>
+  <status status="PASS" starttime="20210301 10:57:34.501" endtime="20210301 10:57:34.502"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.text}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:34.505" level="INFO">{"code":200,"message":"request
+   successful","data":[{"themeId":1,"themeCode":"005","themeName":"生育收养","icon":"group1/M00/0E/BB/wKgDZV_IU9-AQtDmAAAGKK1vgVU240.png","themeType":1,"createTime":"2020-09-25T01:57:43.453+00:00","updateTime":"2020-12-03T02:56:34.277+00:00","stringThemeId":"1"},{"themeId":2,"themeCode":"010","themeName":"户籍办理","icon":"group3/M00/0E/BB/wKgDZ1_IVOuAT60_AAAEd4tuIGg981.png","themeType":1,"createTime":"2020-09-25T01:57:53.154+00:00","updateTime":"2020-12-03T03:01:01.805+00:00","stringThemeId":"2"},{"themeId":3,"themeCode":"015","themeName":"民族宗教","icon":"group2/M00/0E/BB/wKgDZl_IVI-ALHAuAAAFNoshNrQ926.png","themeType":1,"createTime":"2020-09-25T01:58:05.699+00:00","updateTime":"2020-12-03T02:59:30.260+00:00","stringThemeId":"3"},{"themeId":4,"themeCode":"020","themeName":"教育科研","icon":"group1/M00/0E/BB/wKgDZV_IVPKAbu5yAAAEZbKjN2U486.png","themeType":1,"createTime":"2020-09-25T01:58:17.253+00:00","updateTime":"2020-12-03T03:01:09.305+00:00","stringThemeId":"4"},{"themeId":5,"themeCode":"025","themeName":"入伍服役","icon":"group1/M00/0E/BB/wKgDZV_IVIeAW5a1AAAE4kGHtWc550.png","themeType":1,"createTime":"2020-09-25T01:58:46.540+00:00","updateTime":"2020-12-03T02:59:21.845+00:00","stringThemeId":"5"}]}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:34.502" endtime="20210301 10:57:34.506"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:27.337" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:27.337" endtime="20210226 11:53:27.337"></status>
+ <msg timestamp="20210301 10:57:34.506" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:34.506" endtime="20210301 10:57:34.506"></status>
 </kw>
-<kw name="Should Be Equal As Strings" library="BuiltIn">
-<doc>Fails if objects are unequal after converting them to strings.</doc>
-<arguments>
-<arg>${resp.json()['message']}</arg>
-<arg>request successful</arg>
-</arguments>
-<status status="PASS" starttime="20210226 11:53:27.337" endtime="20210226 11:53:27.337"></status>
-</kw>
-<status status="PASS" starttime="20210226 11:53:26.292" endtime="20210226 11:53:27.338" critical="yes"></status>
+ <kw name="Should Be Equal As Strings" library="BuiltIn">
+  <doc>Fails if objects are unequal after converting them to strings.</doc>
+  <arguments>
+   <arg>${resp.json()['message']}</arg>
+   <arg>request successful</arg>
+  </arguments>
+  <status status="PASS" starttime="20210301 10:57:34.506" endtime="20210301 10:57:34.506"></status>
+ </kw>
+ <kw name="Should Exist" library="OperatingSystem">
+  <doc>Fails unless the given path (file or directory) exists.</doc>
+  <arguments>
+   <arg>F:\\token.xlsx</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:34.507" level="INFO" html="yes">Path '&lt;a href="file://F:\token.xlsx"&gt;F:\token.xlsx&lt;/a&gt;'
+   exists.
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:34.506" endtime="20210301 10:57:34.507"></status>
+ </kw>
+ <kw name="Should Match" library="BuiltIn">
+  <doc>Fails if the given ``string`` does not match the given ``pattern``.</doc>
+  <arguments>
+   <arg>${resp.json()['data'][0]['themeName']}</arg>
+   <arg>生育收养</arg>
+  </arguments>
+  <status status="PASS" starttime="20210301 10:57:34.507" endtime="20210301 10:57:34.507"></status>
+ </kw>
+ <kw name="Should Not Be Empty" library="BuiltIn">
+  <doc>Verifies that the given item is not empty.</doc>
+  <arguments>
+   <arg>${resp.json()['data'][0]['themeName']}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:34.507" level="INFO">Length is 4</msg>
+  <status status="PASS" starttime="20210301 10:57:34.507" endtime="20210301 10:57:34.507"></status>
+ </kw>
+ <status status="PASS" starttime="20210301 10:57:33.462" endtime="20210301 10:57:34.508" critical="yes"></status>
 </test>
 <test id="s1-t4" name="theme2 #get 获取法人下的所有主题">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>1</arg>
-</arguments>
-<msg timestamp="20210226 11:53:28.339" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 11:53:27.339" endtime="20210226 11:53:28.339"></status>
-</kw>
+ <kw name="Sleep" library="BuiltIn">
+  <doc>Pauses the test executed for the given time.</doc>
+  <arguments>
+   <arg>1</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:35.511" level="INFO">Slept 1 second</msg>
+  <status status="PASS" starttime="20210301 10:57:34.509" endtime="20210301 10:57:35.511"></status>
+ </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
 _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:28.339" endtime="20210226 11:53:28.350"></status>
+ <status status="PASS" starttime="20210301 10:57:35.511" endtime="20210301 10:57:35.522"></status>
 </kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B4</arg>
-</arguments>
-<assign>
-<var>${token}</var>
-</assign>
-<msg timestamp="20210226 11:53:28.350" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:28.350" endtime="20210226 11:53:28.350"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>token=${token}</arg>
-</arguments>
-<assign>
-<var>${headers}</var>
-</assign>
-<msg timestamp="20210226 11:53:28.351" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'}</msg>
-<status status="PASS" starttime="20210226 11:53:28.351" endtime="20210226 11:53:28.351"></status>
-</kw>
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>local</arg>
-<arg>http://121.30.189.198:14355/approval-project/theme</arg>
-<arg>${headers}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:28.351" level="INFO">Creating Session using : alias=local, url=http://121.30.189.198:14355/approval-project/theme, headers={'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:28.351" endtime="20210226 11:53:28.351"></status>
-</kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B4</arg>
+  </arguments>
+  <assign>
+   <var>${token}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:35.522" level="INFO">${token} =
+   yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:35.522" endtime="20210301 10:57:35.522"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>token=${token}</arg>
+  </arguments>
+  <assign>
+   <var>${headers}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:35.522" level="INFO">${headers} = {'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:35.522" endtime="20210301 10:57:35.523"></status>
+ </kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>local</arg>
+   <arg>http://121.30.189.198:14355/approval-project/theme</arg>
+   <arg>${headers}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:35.523" level="INFO">Creating Session using : alias=local,
+   url=http://121.30.189.198:14355/approval-project/theme, headers={'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}, cookies={}, auth=None, timeout=None,
+   proxies=None, verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:35.523" endtime="20210301 10:57:35.523"></status>
+ </kw>
 <kw name="Get On Session" library="RequestsLibrary">
 <doc>Sends a GET request on a previously created HTTP Session.</doc>
 <arguments>
@@ -353,52 +414,60 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:28.372" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/theme/2 
- path_url=/approval-project/theme/2 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'} 
- body=None 
+ <msg timestamp="20210301 10:57:35.548" level="INFO">GET Request :
+  url=http://121.30.189.198:14355/approval-project/theme/2
+  path_url=/approval-project/theme/2
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive', 'token': 'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  body=None
  </msg>
-<msg timestamp="20210226 11:53:28.373" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/theme/2 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:26 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":[{"themeId":10,"themeCode":"1","themeName":"便民","icon":"group2/M00/0E/BB/wKgDZl_IVG2Ae6m8AAAFJu3KcwQ689.png","themeType":2,"createTime":"2020-10-20T08:32:06.805+00:00","updateTime":"2020-12-03T02:58:55.755+00:00","stringThemeId":"10"},{"themeId":11,"themeCode":"10006","themeName":"土地办理","icon":"group3/M00/0E/BB/wKgDZ1_IVHOAdcorAAADwTW7yGc646.png","themeType":2,"createTime":"2020-11-23T11:22:09.436+00:00","updateTime":"2020-12-03T02:59:01.870+00:00","stringThemeId":"11"}]} 
+ <msg timestamp="20210301 10:57:35.550" level="INFO">GET Response :
+  url=http://121.30.189.198:14355/approval-project/theme/2
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:35 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":[{"themeId":10,"themeCode":"1","themeName":"便民","icon":"group2/M00/0E/BB/wKgDZl_IVG2Ae6m8AAAFJu3KcwQ689.png","themeType":2,"createTime":"2020-10-20T08:32:06.805+00:00","updateTime":"2020-12-03T02:58:55.755+00:00","stringThemeId":"10"},{"themeId":11,"themeCode":"10006","themeName":"土地办理","icon":"group3/M00/0E/BB/wKgDZ1_IVHOAdcorAAADwTW7yGc646.png","themeType":2,"createTime":"2020-11-23T11:22:09.436+00:00","updateTime":"2020-12-03T02:59:01.870+00:00","stringThemeId":"11"}]}
  </msg>
-<msg timestamp="20210226 11:53:28.373" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:28.351" endtime="20210226 11:53:28.374"></status>
+ <msg timestamp="20210301 10:57:35.550" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:35.523" endtime="20210301 10:57:35.550"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:28.374" endtime="20210226 11:53:28.374"></status>
+ <status status="PASS" starttime="20210301 10:57:35.550" endtime="20210301 10:57:35.550"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.status_code}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:28.374" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 11:53:28.374" endtime="20210226 11:53:28.374"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.text}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:28.376" level="INFO">{"code":200,"message":"request successful","data":[{"themeId":10,"themeCode":"1","themeName":"便民","icon":"group2/M00/0E/BB/wKgDZl_IVG2Ae6m8AAAFJu3KcwQ689.png","themeType":2,"createTime":"2020-10-20T08:32:06.805+00:00","updateTime":"2020-12-03T02:58:55.755+00:00","stringThemeId":"10"},{"themeId":11,"themeCode":"10006","themeName":"土地办理","icon":"group3/M00/0E/BB/wKgDZ1_IVHOAdcorAAADwTW7yGc646.png","themeType":2,"createTime":"2020-11-23T11:22:09.436+00:00","updateTime":"2020-12-03T02:59:01.870+00:00","stringThemeId":"11"}]}</msg>
-<status status="PASS" starttime="20210226 11:53:28.374" endtime="20210226 11:53:28.377"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.status_code}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:35.550" level="INFO">200</msg>
+  <status status="PASS" starttime="20210301 10:57:35.550" endtime="20210301 10:57:35.550"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.text}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:35.552" level="INFO">{"code":200,"message":"request
+   successful","data":[{"themeId":10,"themeCode":"1","themeName":"便民","icon":"group2/M00/0E/BB/wKgDZl_IVG2Ae6m8AAAFJu3KcwQ689.png","themeType":2,"createTime":"2020-10-20T08:32:06.805+00:00","updateTime":"2020-12-03T02:58:55.755+00:00","stringThemeId":"10"},{"themeId":11,"themeCode":"10006","themeName":"土地办理","icon":"group3/M00/0E/BB/wKgDZ1_IVHOAdcorAAADwTW7yGc646.png","themeType":2,"createTime":"2020-11-23T11:22:09.436+00:00","updateTime":"2020-12-03T02:59:01.870+00:00","stringThemeId":"11"}]}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:35.550" endtime="20210301 10:57:35.552"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:28.377" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:28.377" endtime="20210226 11:53:28.377"></status>
+ <msg timestamp="20210301 10:57:35.553" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:35.553" endtime="20210301 10:57:35.553"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -406,19 +475,19 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:28.377" endtime="20210226 11:53:28.377"></status>
+ <status status="PASS" starttime="20210301 10:57:35.553" endtime="20210301 10:57:35.553"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:27.338" endtime="20210226 11:53:28.377" critical="yes"></status>
+ <status status="PASS" starttime="20210301 10:57:34.508" endtime="20210301 10:57:35.553" critical="yes"></status>
 </test>
 <test id="s1-t5" name="itemsList #post 循环获取主题code">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>1</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.380" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 11:53:28.378" endtime="20210226 11:53:29.380"></status>
-</kw>
+ <kw name="Sleep" library="BuiltIn">
+  <doc>Pauses the test executed for the given time.</doc>
+  <arguments>
+   <arg>1</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.555" level="INFO">Slept 1 second</msg>
+  <status status="PASS" starttime="20210301 10:57:35.554" endtime="20210301 10:57:36.555"></status>
+ </kw>
 <kw name="${themeCode} IN [ 005 | 010 | 015 | 020 | 025 ]" type="for">
 <kw name="${themeCode} = 005" type="foritem">
 <kw name="Open Workbook" library="ExcellentLibrary">
@@ -427,56 +496,66 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.380" endtime="20210226 11:53:29.391"></status>
+ <status status="PASS" starttime="20210301 10:57:36.555" endtime="20210301 10:57:36.566"></status>
 </kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B4</arg>
-</arguments>
-<assign>
-<var>${token}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.392" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:29.392" endtime="20210226 11:53:29.392"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>token=${token}</arg>
-</arguments>
-<assign>
-<var>${headers}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.392" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'}</msg>
-<status status="PASS" starttime="20210226 11:53:29.392" endtime="20210226 11:53:29.392"></status>
-</kw>
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>itemlist</arg>
-<arg>http://121.30.189.198:14355</arg>
-<arg>${headers}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.392" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:29.392" endtime="20210226 11:53:29.393"></status>
-</kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B4</arg>
+  </arguments>
+  <assign>
+   <var>${token}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:36.566" level="INFO">${token} =
+   yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.566" endtime="20210301 10:57:36.567"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>token=${token}</arg>
+  </arguments>
+  <assign>
+   <var>${headers}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:36.567" level="INFO">${headers} = {'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.567" endtime="20210301 10:57:36.567"></status>
+ </kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>itemlist</arg>
+   <arg>http://121.30.189.198:14355</arg>
+   <arg>${headers}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.567" level="INFO">Creating Session using : alias=itemlist,
+   url=http://121.30.189.198:14355, headers={'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}, cookies={}, auth=None, timeout=None,
+   proxies=None, verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.567" endtime="20210301 10:57:36.567"></status>
+ </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <arguments>
 <arg>pageNo=0</arg>
-<arg>departmentId=0</arg>
-<arg>themeType=1</arg>
-<arg>pageSize=10</arg>
-<arg>itemName=</arg>
-<arg>themeCode=${themeCode}</arg>
-<arg>itemTypeCode=</arg>
+ <arg>departmentId=0</arg>
+ <arg>themeType=1</arg>
+ <arg>pageSize=10</arg>
+ <arg>itemName=</arg>
+ <arg>themeCode=${themeCode}</arg>
+ <arg>itemTypeCode=</arg>
 </arguments>
-<assign>
-<var>${data}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.393" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': '005', 'itemTypeCode': ''}</msg>
-<status status="PASS" starttime="20210226 11:53:29.393" endtime="20210226 11:53:29.393"></status>
+ <assign>
+  <var>${data}</var>
+ </assign>
+ <msg timestamp="20210301 10:57:36.568" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1',
+  'pageSize': '10', 'itemName': '', 'themeCode': '005', 'itemTypeCode': ''}
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:36.568" endtime="20210301 10:57:36.568"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -488,52 +567,61 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:29.467" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
- path_url=/approval-project/itemsList/example/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ', 'Content-Length': '85', 'Content-Type': 'application/x-www-form-urlencoded'} 
- body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;themeCode=005&amp;itemTypeCode= 
+ <msg timestamp="20210301 10:57:36.630" level="INFO">POST Request :
+  url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10
+  path_url=/approval-project/itemsList/example/0/10
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive', 'token': 'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD', 'Content-Length': '85',
+  'Content-Type': 'application/x-www-form-urlencoded'}
+  body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;themeCode=005&amp;itemTypeCode=
  </msg>
-<msg timestamp="20210226 11:53:29.472" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:27 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null}]}} 
+ <msg timestamp="20210301 10:57:36.635" level="INFO">POST Response :
+  url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:36 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null}]}}
  </msg>
-<msg timestamp="20210226 11:53:29.472" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:29.393" endtime="20210226 11:53:29.473"></status>
+ <msg timestamp="20210301 10:57:36.636" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:36.568" endtime="20210301 10:57:36.636"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.473" endtime="20210226 11:53:29.473"></status>
+ <status status="PASS" starttime="20210301 10:57:36.636" endtime="20210301 10:57:36.636"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.status_code}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.473" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 11:53:29.473" endtime="20210226 11:53:29.473"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.text}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.478" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 11:53:29.473" endtime="20210226 11:53:29.478"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.status_code}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.636" level="INFO">200</msg>
+  <status status="PASS" starttime="20210301 10:57:36.636" endtime="20210301 10:57:36.636"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.text}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.641" level="INFO">{"code":200,"message":"request
+   successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":46,"itemName":"民办非企业单位修改章程核准","basicCode":"140111002000","implementCode":"0000000014080279004140111002000","itemVersion":"1.4","bussinessHandleCode":"1000045","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非修改章程","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.关于运城市盐湖区章程核准的批复","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":1,"themeName":"生育收养","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"申请章程修改及核准的民办非企业单位","isCharge":"否","implementationListName":null}]}}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.636" endtime="20210301 10:57:36.641"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:29.479" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:29.478" endtime="20210226 11:53:29.479"></status>
+ <msg timestamp="20210301 10:57:36.642" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:36.641" endtime="20210301 10:57:36.642"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -541,9 +629,9 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.479" endtime="20210226 11:53:29.479"></status>
+ <status status="PASS" starttime="20210301 10:57:36.642" endtime="20210301 10:57:36.642"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:29.380" endtime="20210226 11:53:29.479"></status>
+ <status status="PASS" starttime="20210301 10:57:36.555" endtime="20210301 10:57:36.642"></status>
 </kw>
 <kw name="${themeCode} = 010" type="foritem">
 <kw name="Open Workbook" library="ExcellentLibrary">
@@ -552,56 +640,66 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.479" endtime="20210226 11:53:29.490"></status>
+ <status status="PASS" starttime="20210301 10:57:36.642" endtime="20210301 10:57:36.653"></status>
 </kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B4</arg>
-</arguments>
-<assign>
-<var>${token}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.491" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:29.490" endtime="20210226 11:53:29.491"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>token=${token}</arg>
-</arguments>
-<assign>
-<var>${headers}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.491" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'}</msg>
-<status status="PASS" starttime="20210226 11:53:29.491" endtime="20210226 11:53:29.491"></status>
-</kw>
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>itemlist</arg>
-<arg>http://121.30.189.198:14355</arg>
-<arg>${headers}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.491" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:29.491" endtime="20210226 11:53:29.491"></status>
-</kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B4</arg>
+  </arguments>
+  <assign>
+   <var>${token}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:36.653" level="INFO">${token} =
+   yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.653" endtime="20210301 10:57:36.653"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>token=${token}</arg>
+  </arguments>
+  <assign>
+   <var>${headers}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:36.654" level="INFO">${headers} = {'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.654" endtime="20210301 10:57:36.654"></status>
+ </kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>itemlist</arg>
+   <arg>http://121.30.189.198:14355</arg>
+   <arg>${headers}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.654" level="INFO">Creating Session using : alias=itemlist,
+   url=http://121.30.189.198:14355, headers={'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}, cookies={}, auth=None, timeout=None,
+   proxies=None, verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.654" endtime="20210301 10:57:36.654"></status>
+ </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <arguments>
 <arg>pageNo=0</arg>
-<arg>departmentId=0</arg>
-<arg>themeType=1</arg>
-<arg>pageSize=10</arg>
-<arg>itemName=</arg>
-<arg>themeCode=${themeCode}</arg>
-<arg>itemTypeCode=</arg>
+ <arg>departmentId=0</arg>
+ <arg>themeType=1</arg>
+ <arg>pageSize=10</arg>
+ <arg>itemName=</arg>
+ <arg>themeCode=${themeCode}</arg>
+ <arg>itemTypeCode=</arg>
 </arguments>
-<assign>
-<var>${data}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.492" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': '010', 'itemTypeCode': ''}</msg>
-<status status="PASS" starttime="20210226 11:53:29.492" endtime="20210226 11:53:29.492"></status>
+ <assign>
+  <var>${data}</var>
+ </assign>
+ <msg timestamp="20210301 10:57:36.655" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1',
+  'pageSize': '10', 'itemName': '', 'themeCode': '010', 'itemTypeCode': ''}
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:36.654" endtime="20210301 10:57:36.655"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -613,52 +711,61 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:29.556" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
- path_url=/approval-project/itemsList/example/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ', 'Content-Length': '85', 'Content-Type': 'application/x-www-form-urlencoded'} 
- body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;themeCode=010&amp;itemTypeCode= 
+ <msg timestamp="20210301 10:57:36.716" level="INFO">POST Request :
+  url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10
+  path_url=/approval-project/itemsList/example/0/10
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive', 'token': 'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD', 'Content-Length': '85',
+  'Content-Type': 'application/x-www-form-urlencoded'}
+  body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;themeCode=010&amp;itemTypeCode=
  </msg>
-<msg timestamp="20210226 11:53:29.561" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:27 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}} 
+ <msg timestamp="20210301 10:57:36.720" level="INFO">POST Response :
+  url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:36 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}}
  </msg>
-<msg timestamp="20210226 11:53:29.561" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:29.492" endtime="20210226 11:53:29.561"></status>
+ <msg timestamp="20210301 10:57:36.720" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:36.655" endtime="20210301 10:57:36.720"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.561" endtime="20210226 11:53:29.561"></status>
+ <status status="PASS" starttime="20210301 10:57:36.720" endtime="20210301 10:57:36.721"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.status_code}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.562" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 11:53:29.561" endtime="20210226 11:53:29.562"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.text}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.566" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 11:53:29.562" endtime="20210226 11:53:29.566"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.status_code}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.721" level="INFO">200</msg>
+  <status status="PASS" starttime="20210301 10:57:36.721" endtime="20210301 10:57:36.721"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.text}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.725" level="INFO">{"code":200,"message":"request
+   successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.721" endtime="20210301 10:57:36.725"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:29.566" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:29.566" endtime="20210226 11:53:29.566"></status>
+ <msg timestamp="20210301 10:57:36.726" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:36.725" endtime="20210301 10:57:36.726"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -666,9 +773,9 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.566" endtime="20210226 11:53:29.566"></status>
+ <status status="PASS" starttime="20210301 10:57:36.726" endtime="20210301 10:57:36.726"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:29.479" endtime="20210226 11:53:29.566"></status>
+ <status status="PASS" starttime="20210301 10:57:36.642" endtime="20210301 10:57:36.726"></status>
 </kw>
 <kw name="${themeCode} = 015" type="foritem">
 <kw name="Open Workbook" library="ExcellentLibrary">
@@ -677,56 +784,66 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.566" endtime="20210226 11:53:29.577"></status>
+ <status status="PASS" starttime="20210301 10:57:36.726" endtime="20210301 10:57:36.737"></status>
 </kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B4</arg>
-</arguments>
-<assign>
-<var>${token}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.578" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:29.577" endtime="20210226 11:53:29.578"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>token=${token}</arg>
-</arguments>
-<assign>
-<var>${headers}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.578" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'}</msg>
-<status status="PASS" starttime="20210226 11:53:29.578" endtime="20210226 11:53:29.578"></status>
-</kw>
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>itemlist</arg>
-<arg>http://121.30.189.198:14355</arg>
-<arg>${headers}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.578" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:29.578" endtime="20210226 11:53:29.578"></status>
-</kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B4</arg>
+  </arguments>
+  <assign>
+   <var>${token}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:36.737" level="INFO">${token} =
+   yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.737" endtime="20210301 10:57:36.737"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>token=${token}</arg>
+  </arguments>
+  <assign>
+   <var>${headers}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:36.738" level="INFO">${headers} = {'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.738" endtime="20210301 10:57:36.738"></status>
+ </kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>itemlist</arg>
+   <arg>http://121.30.189.198:14355</arg>
+   <arg>${headers}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.738" level="INFO">Creating Session using : alias=itemlist,
+   url=http://121.30.189.198:14355, headers={'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}, cookies={}, auth=None, timeout=None,
+   proxies=None, verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.738" endtime="20210301 10:57:36.738"></status>
+ </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <arguments>
 <arg>pageNo=0</arg>
-<arg>departmentId=0</arg>
-<arg>themeType=1</arg>
-<arg>pageSize=10</arg>
-<arg>itemName=</arg>
-<arg>themeCode=${themeCode}</arg>
-<arg>itemTypeCode=</arg>
+ <arg>departmentId=0</arg>
+ <arg>themeType=1</arg>
+ <arg>pageSize=10</arg>
+ <arg>itemName=</arg>
+ <arg>themeCode=${themeCode}</arg>
+ <arg>itemTypeCode=</arg>
 </arguments>
-<assign>
-<var>${data}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.579" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': '015', 'itemTypeCode': ''}</msg>
-<status status="PASS" starttime="20210226 11:53:29.578" endtime="20210226 11:53:29.579"></status>
+ <assign>
+  <var>${data}</var>
+ </assign>
+ <msg timestamp="20210301 10:57:36.739" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1',
+  'pageSize': '10', 'itemName': '', 'themeCode': '015', 'itemTypeCode': ''}
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:36.738" endtime="20210301 10:57:36.739"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -738,52 +855,61 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:29.639" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
- path_url=/approval-project/itemsList/example/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ', 'Content-Length': '85', 'Content-Type': 'application/x-www-form-urlencoded'} 
- body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;themeCode=015&amp;itemTypeCode= 
+ <msg timestamp="20210301 10:57:36.799" level="INFO">POST Request :
+  url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10
+  path_url=/approval-project/itemsList/example/0/10
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive', 'token': 'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD', 'Content-Length': '85',
+  'Content-Type': 'application/x-www-form-urlencoded'}
+  body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;themeCode=015&amp;itemTypeCode=
  </msg>
-<msg timestamp="20210226 11:53:29.644" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:27 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}} 
+ <msg timestamp="20210301 10:57:36.805" level="INFO">POST Response :
+  url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:36 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}
  </msg>
-<msg timestamp="20210226 11:53:29.645" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:29.579" endtime="20210226 11:53:29.645"></status>
+ <msg timestamp="20210301 10:57:36.805" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:36.739" endtime="20210301 10:57:36.805"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.645" endtime="20210226 11:53:29.645"></status>
+ <status status="PASS" starttime="20210301 10:57:36.805" endtime="20210301 10:57:36.805"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.status_code}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.645" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 11:53:29.645" endtime="20210226 11:53:29.645"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.text}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.651" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 11:53:29.645" endtime="20210226 11:53:29.651"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.status_code}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.806" level="INFO">200</msg>
+  <status status="PASS" starttime="20210301 10:57:36.805" endtime="20210301 10:57:36.806"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.text}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.811" level="INFO">{"code":200,"message":"request
+   successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":47,"itemName":"民办职业培训学校办学资格认定","basicCode":"140114002000","implementCode":"0000000014080279004140114002000","itemVersion":"1.2","bussinessHandleCode":"100052","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"办职业学校、办培训学校","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明\n","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":3,"themeName":"民族宗教","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"非营业情况下：先去民政局办理核名通知书。\n营业情况下：拿着市场监督管理局出具的营业执照办理业务。","isCharge":"否","implementationListName":null}]}}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.806" endtime="20210301 10:57:36.811"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:29.651" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:29.651" endtime="20210226 11:53:29.651"></status>
+ <msg timestamp="20210301 10:57:36.812" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:36.811" endtime="20210301 10:57:36.812"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -791,9 +917,9 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.651" endtime="20210226 11:53:29.652"></status>
+ <status status="PASS" starttime="20210301 10:57:36.812" endtime="20210301 10:57:36.812"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:29.566" endtime="20210226 11:53:29.652"></status>
+ <status status="PASS" starttime="20210301 10:57:36.726" endtime="20210301 10:57:36.812"></status>
 </kw>
 <kw name="${themeCode} = 020" type="foritem">
 <kw name="Open Workbook" library="ExcellentLibrary">
@@ -802,56 +928,66 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.652" endtime="20210226 11:53:29.663"></status>
+ <status status="PASS" starttime="20210301 10:57:36.812" endtime="20210301 10:57:36.823"></status>
 </kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B4</arg>
-</arguments>
-<assign>
-<var>${token}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.663" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:29.663" endtime="20210226 11:53:29.663"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>token=${token}</arg>
-</arguments>
-<assign>
-<var>${headers}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.663" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'}</msg>
-<status status="PASS" starttime="20210226 11:53:29.663" endtime="20210226 11:53:29.663"></status>
-</kw>
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>itemlist</arg>
-<arg>http://121.30.189.198:14355</arg>
-<arg>${headers}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.664" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:29.663" endtime="20210226 11:53:29.664"></status>
-</kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B4</arg>
+  </arguments>
+  <assign>
+   <var>${token}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:36.823" level="INFO">${token} =
+   yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.823" endtime="20210301 10:57:36.823"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>token=${token}</arg>
+  </arguments>
+  <assign>
+   <var>${headers}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:36.824" level="INFO">${headers} = {'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.823" endtime="20210301 10:57:36.824"></status>
+ </kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>itemlist</arg>
+   <arg>http://121.30.189.198:14355</arg>
+   <arg>${headers}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.824" level="INFO">Creating Session using : alias=itemlist,
+   url=http://121.30.189.198:14355, headers={'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}, cookies={}, auth=None, timeout=None,
+   proxies=None, verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.824" endtime="20210301 10:57:36.824"></status>
+ </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <arguments>
 <arg>pageNo=0</arg>
-<arg>departmentId=0</arg>
-<arg>themeType=1</arg>
-<arg>pageSize=10</arg>
-<arg>itemName=</arg>
-<arg>themeCode=${themeCode}</arg>
-<arg>itemTypeCode=</arg>
+ <arg>departmentId=0</arg>
+ <arg>themeType=1</arg>
+ <arg>pageSize=10</arg>
+ <arg>itemName=</arg>
+ <arg>themeCode=${themeCode}</arg>
+ <arg>itemTypeCode=</arg>
 </arguments>
-<assign>
-<var>${data}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.664" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': '020', 'itemTypeCode': ''}</msg>
-<status status="PASS" starttime="20210226 11:53:29.664" endtime="20210226 11:53:29.664"></status>
+ <assign>
+  <var>${data}</var>
+ </assign>
+ <msg timestamp="20210301 10:57:36.824" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1',
+  'pageSize': '10', 'itemName': '', 'themeCode': '020', 'itemTypeCode': ''}
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:36.824" endtime="20210301 10:57:36.825"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -863,52 +999,61 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:29.687" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
- path_url=/approval-project/itemsList/example/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ', 'Content-Length': '85', 'Content-Type': 'application/x-www-form-urlencoded'} 
- body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;themeCode=020&amp;itemTypeCode= 
+ <msg timestamp="20210301 10:57:36.848" level="INFO">POST Request :
+  url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10
+  path_url=/approval-project/itemsList/example/0/10
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive', 'token': 'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD', 'Content-Length': '85',
+  'Content-Type': 'application/x-www-form-urlencoded'}
+  body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;themeCode=020&amp;itemTypeCode=
  </msg>
-<msg timestamp="20210226 11:53:29.687" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:27 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":0,"totalPages":0,"currentPage":0,"resultList":[]}} 
+ <msg timestamp="20210301 10:57:36.848" level="INFO">POST Response :
+  url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:36 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":{"pageSize":10,"totalRows":0,"totalPages":0,"currentPage":0,"resultList":[]}}
  </msg>
-<msg timestamp="20210226 11:53:29.687" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:29.664" endtime="20210226 11:53:29.687"></status>
+ <msg timestamp="20210301 10:57:36.848" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:36.825" endtime="20210301 10:57:36.848"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.687" endtime="20210226 11:53:29.687"></status>
+ <status status="PASS" starttime="20210301 10:57:36.848" endtime="20210301 10:57:36.849"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.status_code}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.687" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 11:53:29.687" endtime="20210226 11:53:29.687"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.text}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.687" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":0,"totalPages":0,"currentPage":0,"resultList":[]}}</msg>
-<status status="PASS" starttime="20210226 11:53:29.687" endtime="20210226 11:53:29.687"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.status_code}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.849" level="INFO">200</msg>
+  <status status="PASS" starttime="20210301 10:57:36.849" endtime="20210301 10:57:36.849"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.text}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.849" level="INFO">{"code":200,"message":"request
+   successful","data":{"pageSize":10,"totalRows":0,"totalPages":0,"currentPage":0,"resultList":[]}}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.849" endtime="20210301 10:57:36.849"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:29.688" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:29.687" endtime="20210226 11:53:29.688"></status>
+ <msg timestamp="20210301 10:57:36.850" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:36.849" endtime="20210301 10:57:36.850"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -916,9 +1061,9 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.688" endtime="20210226 11:53:29.688"></status>
+ <status status="PASS" starttime="20210301 10:57:36.850" endtime="20210301 10:57:36.850"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:29.652" endtime="20210226 11:53:29.688"></status>
+ <status status="PASS" starttime="20210301 10:57:36.812" endtime="20210301 10:57:36.850"></status>
 </kw>
 <kw name="${themeCode} = 025" type="foritem">
 <kw name="Open Workbook" library="ExcellentLibrary">
@@ -927,56 +1072,66 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.688" endtime="20210226 11:53:29.700"></status>
+ <status status="PASS" starttime="20210301 10:57:36.850" endtime="20210301 10:57:36.861"></status>
 </kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B4</arg>
-</arguments>
-<assign>
-<var>${token}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.700" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:29.700" endtime="20210226 11:53:29.700"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>token=${token}</arg>
-</arguments>
-<assign>
-<var>${headers}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.700" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'}</msg>
-<status status="PASS" starttime="20210226 11:53:29.700" endtime="20210226 11:53:29.700"></status>
-</kw>
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>itemlist</arg>
-<arg>http://121.30.189.198:14355</arg>
-<arg>${headers}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.701" level="INFO">Creating Session using : alias=itemlist, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:29.700" endtime="20210226 11:53:29.701"></status>
-</kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B4</arg>
+  </arguments>
+  <assign>
+   <var>${token}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:36.862" level="INFO">${token} =
+   yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.861" endtime="20210301 10:57:36.862"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>token=${token}</arg>
+  </arguments>
+  <assign>
+   <var>${headers}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:36.862" level="INFO">${headers} = {'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.862" endtime="20210301 10:57:36.862"></status>
+ </kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>itemlist</arg>
+   <arg>http://121.30.189.198:14355</arg>
+   <arg>${headers}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.862" level="INFO">Creating Session using : alias=itemlist,
+   url=http://121.30.189.198:14355, headers={'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}, cookies={}, auth=None, timeout=None,
+   proxies=None, verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.862" endtime="20210301 10:57:36.863"></status>
+ </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <arguments>
 <arg>pageNo=0</arg>
-<arg>departmentId=0</arg>
-<arg>themeType=1</arg>
-<arg>pageSize=10</arg>
-<arg>itemName=</arg>
-<arg>themeCode=${themeCode}</arg>
-<arg>itemTypeCode=</arg>
+ <arg>departmentId=0</arg>
+ <arg>themeType=1</arg>
+ <arg>pageSize=10</arg>
+ <arg>itemName=</arg>
+ <arg>themeCode=${themeCode}</arg>
+ <arg>itemTypeCode=</arg>
 </arguments>
-<assign>
-<var>${data}</var>
-</assign>
-<msg timestamp="20210226 11:53:29.701" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1', 'pageSize': '10', 'itemName': '', 'themeCode': '025', 'itemTypeCode': ''}</msg>
-<status status="PASS" starttime="20210226 11:53:29.701" endtime="20210226 11:53:29.701"></status>
+ <assign>
+  <var>${data}</var>
+ </assign>
+ <msg timestamp="20210301 10:57:36.863" level="INFO">${data} = {'pageNo': '0', 'departmentId': '0', 'themeType': '1',
+  'pageSize': '10', 'itemName': '', 'themeCode': '025', 'itemTypeCode': ''}
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:36.863" endtime="20210301 10:57:36.863"></status>
 </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
@@ -988,52 +1143,61 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:29.761" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
- path_url=/approval-project/itemsList/example/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ', 'Content-Length': '85', 'Content-Type': 'application/x-www-form-urlencoded'} 
- body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;themeCode=025&amp;itemTypeCode= 
+ <msg timestamp="20210301 10:57:36.923" level="INFO">POST Request :
+  url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10
+  path_url=/approval-project/itemsList/example/0/10
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive', 'token': 'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD', 'Content-Length': '85',
+  'Content-Type': 'application/x-www-form-urlencoded'}
+  body=pageNo=0&amp;departmentId=0&amp;themeType=1&amp;pageSize=10&amp;itemName=&amp;themeCode=025&amp;itemTypeCode=
  </msg>
-<msg timestamp="20210226 11:53:29.766" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:27 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null}]}} 
+ <msg timestamp="20210301 10:57:36.928" level="INFO">POST Response :
+  url=http://121.30.189.198:14355/approval-project/itemsList/example/0/10
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:36 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null}]}}
  </msg>
-<msg timestamp="20210226 11:53:29.766" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:29.701" endtime="20210226 11:53:29.766"></status>
+ <msg timestamp="20210301 10:57:36.929" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:36.863" endtime="20210301 10:57:36.929"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.766" endtime="20210226 11:53:29.766"></status>
+ <status status="PASS" starttime="20210301 10:57:36.929" endtime="20210301 10:57:36.929"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.status_code}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.766" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 11:53:29.766" endtime="20210226 11:53:29.767"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.text}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:29.772" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 11:53:29.767" endtime="20210226 11:53:29.772"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.status_code}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.929" level="INFO">200</msg>
+  <status status="PASS" starttime="20210301 10:57:36.929" endtime="20210301 10:57:36.929"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.text}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:36.934" level="INFO">{"code":200,"message":"request
+   successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":42,"itemName":"民办非企业单位成立登记","basicCode":"140111005001","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非成立","exerciseLevelCode":"3","exerciseLevelName":"市级/隶属","implementSubject":"市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.民办非企业单位登记证书","statutoryDeadlineDesc":"法定办结时限","commitmentDeadlineDesc":"承诺办结时限","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":5,"themeName":"入伍服役","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"1、本服务适用于盐湖区民办非企业单位成立、变更、注销登记事项办理","isCharge":"否","implementationListName":null}]}}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:36.929" endtime="20210301 10:57:36.934"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:29.772" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:29.772" endtime="20210226 11:53:29.772"></status>
+ <msg timestamp="20210301 10:57:36.935" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:36.934" endtime="20210301 10:57:36.935"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1041,76 +1205,86 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:29.772" endtime="20210226 11:53:29.773"></status>
+ <status status="PASS" starttime="20210301 10:57:36.935" endtime="20210301 10:57:36.935"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:29.688" endtime="20210226 11:53:29.773"></status>
+ <status status="PASS" starttime="20210301 10:57:36.850" endtime="20210301 10:57:36.935"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:29.380" endtime="20210226 11:53:29.773"></status>
+ <status status="PASS" starttime="20210301 10:57:36.555" endtime="20210301 10:57:36.935"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:28.378" endtime="20210226 11:53:29.773" critical="yes"></status>
+ <status status="PASS" starttime="20210301 10:57:35.554" endtime="20210301 10:57:36.935" critical="yes"></status>
 </test>
 <test id="s1-t6" name="search #搜索功能">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>1</arg>
-</arguments>
-<msg timestamp="20210226 11:53:30.776" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 11:53:29.774" endtime="20210226 11:53:30.776"></status>
-</kw>
+ <kw name="Sleep" library="BuiltIn">
+  <doc>Pauses the test executed for the given time.</doc>
+  <arguments>
+   <arg>1</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:37.937" level="INFO">Slept 1 second</msg>
+  <status status="PASS" starttime="20210301 10:57:36.936" endtime="20210301 10:57:37.937"></status>
+ </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
 _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:30.776" endtime="20210226 11:53:30.787"></status>
+ <status status="PASS" starttime="20210301 10:57:37.937" endtime="20210301 10:57:37.948"></status>
 </kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B4</arg>
-</arguments>
-<assign>
-<var>${token}</var>
-</assign>
-<msg timestamp="20210226 11:53:30.787" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:30.787" endtime="20210226 11:53:30.787"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>token=${token}</arg>
-</arguments>
-<assign>
-<var>${headers}</var>
-</assign>
-<msg timestamp="20210226 11:53:30.788" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'}</msg>
-<status status="PASS" starttime="20210226 11:53:30.787" endtime="20210226 11:53:30.788"></status>
-</kw>
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>search</arg>
-<arg>http://121.30.189.198:14355</arg>
-<arg>${headers}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:30.788" level="INFO">Creating Session using : alias=search, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:30.788" endtime="20210226 11:53:30.788"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>pageNo=0</arg>
-<arg>itemListName=注销</arg>
-<arg>pageSize=10</arg>
-</arguments>
-<assign>
-<var>${data}</var>
-</assign>
-<msg timestamp="20210226 11:53:30.789" level="INFO">${data} = {'pageNo': '0', 'itemListName': '注销', 'pageSize': '10'}</msg>
-<status status="PASS" starttime="20210226 11:53:30.788" endtime="20210226 11:53:30.789"></status>
-</kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B4</arg>
+  </arguments>
+  <assign>
+   <var>${token}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:37.948" level="INFO">${token} =
+   yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:37.948" endtime="20210301 10:57:37.948"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>token=${token}</arg>
+  </arguments>
+  <assign>
+   <var>${headers}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:37.949" level="INFO">${headers} = {'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:37.948" endtime="20210301 10:57:37.949"></status>
+ </kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>search</arg>
+   <arg>http://121.30.189.198:14355</arg>
+   <arg>${headers}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:37.949" level="INFO">Creating Session using : alias=search,
+   url=http://121.30.189.198:14355, headers={'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}, cookies={}, auth=None, timeout=None,
+   proxies=None, verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:37.949" endtime="20210301 10:57:37.949"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>pageNo=0</arg>
+   <arg>itemListName=注销</arg>
+   <arg>pageSize=10</arg>
+  </arguments>
+  <assign>
+   <var>${data}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:37.949" level="INFO">${data} = {'pageNo': '0', 'itemListName': '注销', 'pageSize':
+   '10'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:37.949" endtime="20210301 10:57:37.949"></status>
+ </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
 <arguments>
@@ -1121,18 +1295,24 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:30.851" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/itemsList/name/0/10 
- path_url=/approval-project/itemsList/name/0/10 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ', 'Content-Length': '52', 'Content-Type': 'application/x-www-form-urlencoded'} 
- body=pageNo=0&amp;itemListName=%E6%B3%A8%E9%94%80&amp;pageSize=10 
+ <msg timestamp="20210301 10:57:38.013" level="INFO">POST Request :
+  url=http://121.30.189.198:14355/approval-project/itemsList/name/0/10
+  path_url=/approval-project/itemsList/name/0/10
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive', 'token': 'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD', 'Content-Length': '52',
+  'Content-Type': 'application/x-www-form-urlencoded'}
+  body=pageNo=0&amp;itemListName=%E6%B3%A8%E9%94%80&amp;pageSize=10
  </msg>
-<msg timestamp="20210226 11:53:30.855" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/itemsList/name/0/10 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:28 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}} 
+ <msg timestamp="20210301 10:57:38.017" level="INFO">POST Response :
+  url=http://121.30.189.198:14355/approval-project/itemsList/name/0/10
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:37 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}}
  </msg>
-<msg timestamp="20210226 11:53:30.856" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:30.789" endtime="20210226 11:53:30.856"></status>
+ <msg timestamp="20210301 10:57:38.017" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:37.950" endtime="20210301 10:57:38.017"></status>
 </kw>
 <kw name="Write To Cell" library="ExcellentLibrary">
 <doc>Writes a value to the supplied cell.</doc>
@@ -1140,48 +1320,51 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>B5</arg>
 <arg>${resp.json()['data']['resultList'][0]['itemsListId']}</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:30.856" endtime="20210226 11:53:30.856"></status>
+ <status status="PASS" starttime="20210301 10:57:38.018" endtime="20210301 10:57:38.018"></status>
 </kw>
 <kw name="Save" library="ExcellentLibrary">
 <doc>Saves the changes to the currently active workbook.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:30.856" endtime="20210226 11:53:30.879"></status>
+ <status status="PASS" starttime="20210301 10:57:38.018" endtime="20210301 10:57:38.041"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:30.879" endtime="20210226 11:53:30.879"></status>
+ <status status="PASS" starttime="20210301 10:57:38.041" endtime="20210301 10:57:38.041"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.status_code}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:30.880" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 11:53:30.880" endtime="20210226 11:53:30.880"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.text}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:30.885" level="INFO">{"code":200,"message":"request successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}}</msg>
-<status status="PASS" starttime="20210226 11:53:30.880" endtime="20210226 11:53:30.885"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.status_code}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:38.042" level="INFO">200</msg>
+  <status status="PASS" starttime="20210301 10:57:38.041" endtime="20210301 10:57:38.042"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.text}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:38.046" level="INFO">{"code":200,"message":"request
+   successful","data":{"pageSize":10,"totalRows":1,"totalPages":1,"currentPage":0,"resultList":[{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}]}}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:38.042" endtime="20210301 10:57:38.047"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:30.885" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:30.885" endtime="20210226 11:53:30.885"></status>
+ <msg timestamp="20210301 10:57:38.047" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:38.047" endtime="20210301 10:57:38.047"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1189,70 +1372,78 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:30.885" endtime="20210226 11:53:30.885"></status>
+ <status status="PASS" starttime="20210301 10:57:38.047" endtime="20210301 10:57:38.047"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:29.773" endtime="20210226 11:53:30.886" critical="yes"></status>
+ <status status="PASS" starttime="20210301 10:57:36.935" endtime="20210301 10:57:38.047" critical="yes"></status>
 </test>
 <test id="s1-t7" name="info #详情">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>1</arg>
-</arguments>
-<msg timestamp="20210226 11:53:31.886" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 11:53:30.886" endtime="20210226 11:53:31.886"></status>
-</kw>
+ <kw name="Sleep" library="BuiltIn">
+  <doc>Pauses the test executed for the given time.</doc>
+  <arguments>
+   <arg>1</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:39.048" level="INFO">Slept 1 second</msg>
+  <status status="PASS" starttime="20210301 10:57:38.048" endtime="20210301 10:57:39.048"></status>
+ </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
 _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:31.886" endtime="20210226 11:53:31.898"></status>
+ <status status="PASS" starttime="20210301 10:57:39.048" endtime="20210301 10:57:39.060"></status>
 </kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B4</arg>
-</arguments>
-<assign>
-<var>${token}</var>
-</assign>
-<msg timestamp="20210226 11:53:31.898" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:31.898" endtime="20210226 11:53:31.898"></status>
-</kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B5</arg>
-</arguments>
-<assign>
-<var>${itemsListId}</var>
-</assign>
-<msg timestamp="20210226 11:53:31.898" level="INFO">${itemsListId} = 45</msg>
-<status status="PASS" starttime="20210226 11:53:31.898" endtime="20210226 11:53:31.898"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>token=${token}</arg>
-</arguments>
-<assign>
-<var>${headers}</var>
-</assign>
-<msg timestamp="20210226 11:53:31.899" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'}</msg>
-<status status="PASS" starttime="20210226 11:53:31.898" endtime="20210226 11:53:31.899"></status>
-</kw>
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>info</arg>
-<arg>http://121.30.189.198:14355/approval-project/itemsList</arg>
-<arg>${headers}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:31.899" level="INFO">Creating Session using : alias=info, url=http://121.30.189.198:14355/approval-project/itemsList, headers={'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:31.899" endtime="20210226 11:53:31.899"></status>
-</kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B4</arg>
+  </arguments>
+  <assign>
+   <var>${token}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:39.061" level="INFO">${token} =
+   yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:39.060" endtime="20210301 10:57:39.061"></status>
+ </kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B5</arg>
+  </arguments>
+  <assign>
+   <var>${itemsListId}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:39.061" level="INFO">${itemsListId} = 45</msg>
+  <status status="PASS" starttime="20210301 10:57:39.061" endtime="20210301 10:57:39.061"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>token=${token}</arg>
+  </arguments>
+  <assign>
+   <var>${headers}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:39.061" level="INFO">${headers} = {'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:39.061" endtime="20210301 10:57:39.061"></status>
+ </kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>info</arg>
+   <arg>http://121.30.189.198:14355/approval-project/itemsList</arg>
+   <arg>${headers}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:39.061" level="INFO">Creating Session using : alias=info,
+   url=http://121.30.189.198:14355/approval-project/itemsList, headers={'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}, cookies={}, auth=None, timeout=None,
+   proxies=None, verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:39.061" endtime="20210301 10:57:39.062"></status>
+ </kw>
 <kw name="Get On Session" library="RequestsLibrary">
 <doc>Sends a GET request on a previously created HTTP Session.</doc>
 <arguments>
@@ -1262,52 +1453,60 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:31.960" level="INFO">GET Request : url=http://121.30.189.198:14355/approval-project/itemsList/info/45 
- path_url=/approval-project/itemsList/info/45 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'} 
- body=None 
+ <msg timestamp="20210301 10:57:39.124" level="INFO">GET Request :
+  url=http://121.30.189.198:14355/approval-project/itemsList/info/45
+  path_url=/approval-project/itemsList/info/45
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive', 'token': 'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  body=None
  </msg>
-<msg timestamp="20210226 11:53:31.964" level="INFO">GET Response : url=http://121.30.189.198:14355/approval-project/itemsList/info/45 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:30 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}} 
+ <msg timestamp="20210301 10:57:39.128" level="INFO">GET Response :
+  url=http://121.30.189.198:14355/approval-project/itemsList/info/45
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:39 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}}
  </msg>
-<msg timestamp="20210226 11:53:31.964" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:31.899" endtime="20210226 11:53:31.964"></status>
+ <msg timestamp="20210301 10:57:39.128" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:39.062" endtime="20210301 10:57:39.128"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:31.965" endtime="20210226 11:53:31.965"></status>
+ <status status="PASS" starttime="20210301 10:57:39.129" endtime="20210301 10:57:39.129"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.status_code}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:31.965" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 11:53:31.965" endtime="20210226 11:53:31.965"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.text}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:31.970" level="INFO">{"code":200,"message":"request successful","data":{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}}</msg>
-<status status="PASS" starttime="20210226 11:53:31.965" endtime="20210226 11:53:31.970"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.status_code}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:39.129" level="INFO">200</msg>
+  <status status="PASS" starttime="20210301 10:57:39.129" endtime="20210301 10:57:39.129"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.text}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:39.134" level="INFO">{"code":200,"message":"request
+   successful","data":{"itemsListId":45,"itemName":"民办非企业单位注销登记","basicCode":"140111005000","implementCode":"0000000014080279004140111005000","itemVersion":"1.2","bussinessHandleCode":"1000023","itemTypeCode":"01","itemTypeName":"行政许可","itemSpoken":"民办非注销","exerciseLevelCode":"2","exerciseLevelName":"省级/直属","implementSubject":"大同市政府","officeType":"2","officeTypeDesc":"承诺件","approvalResultName":"1.注销通知书","statutoryDeadlineDesc":"法定办结时限说明","commitmentDeadlineDesc":"承诺办结时限说明","handleMode":"1","visitsNumber":"1","serviceObjectCode":"1","serviceObjectCodeDesc":"自然人","themeId":2,"themeName":"户籍办理","departmentId":1,"departmentName":"大同市政府","flowPrototypeId":"FLOW_202011051627179166","consultionMethod":"电话","supervisionComplaintMethod":"电话","handleWindows":"法人综合窗口","windowsAddress":"大同市政府","acceptConditions":"适应于本辖区的业务办理","isCharge":"否","implementationListName":null}}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:39.129" endtime="20210301 10:57:39.134"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:31.970" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:31.970" endtime="20210226 11:53:31.970"></status>
+ <msg timestamp="20210301 10:57:39.134" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:39.134" endtime="20210301 10:57:39.134"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1315,81 +1514,89 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:31.970" endtime="20210226 11:53:31.970"></status>
+ <status status="PASS" starttime="20210301 10:57:39.134" endtime="20210301 10:57:39.134"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:30.886" endtime="20210226 11:53:31.970" critical="yes"></status>
+ <status status="PASS" starttime="20210301 10:57:38.048" endtime="20210301 10:57:39.134" critical="yes"></status>
 </test>
 <test id="s1-t8" name="questionnaire #问题列表">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>1</arg>
-</arguments>
-<msg timestamp="20210226 11:53:32.974" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210226 11:53:31.972" endtime="20210226 11:53:32.974"></status>
-</kw>
+ <kw name="Sleep" library="BuiltIn">
+  <doc>Pauses the test executed for the given time.</doc>
+  <arguments>
+   <arg>1</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:40.136" level="INFO">Slept 1 second</msg>
+  <status status="PASS" starttime="20210301 10:57:39.135" endtime="20210301 10:57:40.136"></status>
+ </kw>
 <kw name="Open Workbook" library="ExcellentLibrary">
 <doc>Opens the workbook found at the given file path.
 _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:32.974" endtime="20210226 11:53:32.985"></status>
+ <status status="PASS" starttime="20210301 10:57:40.136" endtime="20210301 10:57:40.147"></status>
 </kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B4</arg>
-</arguments>
-<assign>
-<var>${token}</var>
-</assign>
-<msg timestamp="20210226 11:53:32.985" level="INFO">${token} = NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ</msg>
-<status status="PASS" starttime="20210226 11:53:32.985" endtime="20210226 11:53:32.985"></status>
-</kw>
-<kw name="Read From Cell" library="ExcellentLibrary">
-<doc>Reads the data from the cell identified by the given locator.</doc>
-<arguments>
-<arg>B5</arg>
-</arguments>
-<assign>
-<var>${itemsListId}</var>
-</assign>
-<msg timestamp="20210226 11:53:32.986" level="INFO">${itemsListId} = 45</msg>
-<status status="PASS" starttime="20210226 11:53:32.986" endtime="20210226 11:53:32.986"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>token=${token}</arg>
-</arguments>
-<assign>
-<var>${headers}</var>
-</assign>
-<msg timestamp="20210226 11:53:32.986" level="INFO">${headers} = {'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'}</msg>
-<status status="PASS" starttime="20210226 11:53:32.986" endtime="20210226 11:53:32.986"></status>
-</kw>
-<kw name="Create Session" library="RequestsLibrary">
-<doc>Create Session: create a HTTP session to a server</doc>
-<arguments>
-<arg>question</arg>
-<arg>http://121.30.189.198:14355</arg>
-<arg>${headers}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:32.986" level="INFO">Creating Session using : alias=question, url=http://121.30.189.198:14355, headers={'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20210226 11:53:32.986" endtime="20210226 11:53:32.987"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>itemsListId=${itemsListId}</arg>
-</arguments>
-<assign>
-<var>${data}</var>
-</assign>
-<msg timestamp="20210226 11:53:32.987" level="INFO">${data} = {'itemsListId': 45}</msg>
-<status status="PASS" starttime="20210226 11:53:32.987" endtime="20210226 11:53:32.987"></status>
-</kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B4</arg>
+  </arguments>
+  <assign>
+   <var>${token}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:40.147" level="INFO">${token} =
+   yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:40.147" endtime="20210301 10:57:40.147"></status>
+ </kw>
+ <kw name="Read From Cell" library="ExcellentLibrary">
+  <doc>Reads the data from the cell identified by the given locator.</doc>
+  <arguments>
+   <arg>B5</arg>
+  </arguments>
+  <assign>
+   <var>${itemsListId}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:40.148" level="INFO">${itemsListId} = 45</msg>
+  <status status="PASS" starttime="20210301 10:57:40.147" endtime="20210301 10:57:40.148"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>token=${token}</arg>
+  </arguments>
+  <assign>
+   <var>${headers}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:40.148" level="INFO">${headers} = {'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:40.148" endtime="20210301 10:57:40.148"></status>
+ </kw>
+ <kw name="Create Session" library="RequestsLibrary">
+  <doc>Create Session: create a HTTP session to a server</doc>
+  <arguments>
+   <arg>question</arg>
+   <arg>http://121.30.189.198:14355</arg>
+   <arg>${headers}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:40.148" level="INFO">Creating Session using : alias=question,
+   url=http://121.30.189.198:14355, headers={'token':
+   'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD'}, cookies={}, auth=None, timeout=None,
+   proxies=None, verify=False, debug=0
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:40.148" endtime="20210301 10:57:40.148"></status>
+ </kw>
+ <kw name="Create Dictionary" library="BuiltIn">
+  <doc>Creates and returns a dictionary based on the given ``items``.</doc>
+  <arguments>
+   <arg>itemsListId=${itemsListId}</arg>
+  </arguments>
+  <assign>
+   <var>${data}</var>
+  </assign>
+  <msg timestamp="20210301 10:57:40.149" level="INFO">${data} = {'itemsListId': 45}</msg>
+  <status status="PASS" starttime="20210301 10:57:40.149" endtime="20210301 10:57:40.149"></status>
+ </kw>
 <kw name="Post On Session" library="RequestsLibrary">
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
 <arguments>
@@ -1400,52 +1607,61 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20210226 11:53:33.009" level="INFO">POST Request : url=http://121.30.189.198:14355/approval-project/questionnaire/tree 
- path_url=/approval-project/questionnaire/tree 
- headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'NYkGEdZK0VFjMKPquBCR6vwePbtTGoz2/a47g8trf0Xlsme3mhZPzF+BdqW6/DHQ', 'Content-Length': '14', 'Content-Type': 'application/x-www-form-urlencoded'} 
- body=itemsListId=45 
+ <msg timestamp="20210301 10:57:40.169" level="INFO">POST Request :
+  url=http://121.30.189.198:14355/approval-project/questionnaire/tree
+  path_url=/approval-project/questionnaire/tree
+  headers={'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection':
+  'keep-alive', 'token': 'yF0j5IN6pgDKWx1Gh6EcVWNshCoDqgvpxJdjv79VDFe4bOeQiVD4E5oZJR8ZLQPD', 'Content-Length': '14',
+  'Content-Type': 'application/x-www-form-urlencoded'}
+  body=itemsListId=45
  </msg>
-<msg timestamp="20210226 11:53:33.011" level="INFO">POST Response : url=http://121.30.189.198:14355/approval-project/questionnaire/tree 
- status=200, reason= 
- headers={'Server': 'nginx/1.15.2', 'Date': 'Fri, 26 Feb 2021 03:53:31 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'} 
- body={"code":200,"message":"request successful","data":[{"questionnaireId":45,"itemsListId":45,"questionnaireDesc":"请问您是否属于大型机构（中小学或医院）？","isOptions":0,"isRequire":0,"serialNumber":1,"parentId":0,"treeCode":"45","weight":1,"children":[{"questionnaireId":46,"itemsListId":45,"questionnaireDesc":"是","isOptions":1,"isRequire":0,"serialNumber":1,"parentId":45,"treeCode":"45_46","weight":1,"children":[]},{"questionnaireId":47,"itemsListId":45,"questionnaireDesc":"否","isOptions":1,"isRequire":0,"serialNumber":2,"parentId":45,"treeCode":"45_47","weight":2,"children":[]}]}]} 
+ <msg timestamp="20210301 10:57:40.171" level="INFO">POST Response :
+  url=http://121.30.189.198:14355/approval-project/questionnaire/tree
+  status=200, reason=
+  headers={'Server': 'nginx/1.15.2', 'Date': 'Mon, 01 Mar 2021 02:57:40 GMT', 'Content-Type': 'application/json',
+  'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}
+  body={"code":200,"message":"request
+  successful","data":[{"questionnaireId":45,"itemsListId":45,"questionnaireDesc":"请问您是否属于大型机构（中小学或医院）？","isOptions":0,"isRequire":0,"serialNumber":1,"parentId":0,"treeCode":"45","weight":1,"children":[{"questionnaireId":46,"itemsListId":45,"questionnaireDesc":"是","isOptions":1,"isRequire":0,"serialNumber":1,"parentId":45,"treeCode":"45_46","weight":1,"children":[]},{"questionnaireId":47,"itemsListId":45,"questionnaireDesc":"否","isOptions":1,"isRequire":0,"serialNumber":2,"parentId":45,"treeCode":"45_47","weight":2,"children":[]}]}]}
  </msg>
-<msg timestamp="20210226 11:53:33.011" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:32.987" endtime="20210226 11:53:33.011"></status>
+ <msg timestamp="20210301 10:57:40.171" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+ <status status="PASS" starttime="20210301 10:57:40.149" endtime="20210301 10:57:40.171"></status>
 </kw>
 <kw name="Close Workbook" library="ExcellentLibrary">
 <doc>Closes the workbook identified by the supplied alias.</doc>
 <arguments>
 <arg>F:\\token.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:33.011" endtime="20210226 11:53:33.011"></status>
+ <status status="PASS" starttime="20210301 10:57:40.171" endtime="20210301 10:57:40.171"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.status_code}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:33.011" level="INFO">200</msg>
-<status status="PASS" starttime="20210226 11:53:33.011" endtime="20210226 11:53:33.011"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${resp.text}</arg>
-</arguments>
-<msg timestamp="20210226 11:53:33.014" level="INFO">{"code":200,"message":"request successful","data":[{"questionnaireId":45,"itemsListId":45,"questionnaireDesc":"请问您是否属于大型机构（中小学或医院）？","isOptions":0,"isRequire":0,"serialNumber":1,"parentId":0,"treeCode":"45","weight":1,"children":[{"questionnaireId":46,"itemsListId":45,"questionnaireDesc":"是","isOptions":1,"isRequire":0,"serialNumber":1,"parentId":45,"treeCode":"45_46","weight":1,"children":[]},{"questionnaireId":47,"itemsListId":45,"questionnaireDesc":"否","isOptions":1,"isRequire":0,"serialNumber":2,"parentId":45,"treeCode":"45_47","weight":2,"children":[]}]}]}</msg>
-<status status="PASS" starttime="20210226 11:53:33.012" endtime="20210226 11:53:33.014"></status>
-</kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.status_code}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:40.172" level="INFO">200</msg>
+  <status status="PASS" starttime="20210301 10:57:40.171" endtime="20210301 10:57:40.172"></status>
+ </kw>
+ <kw name="Log" library="BuiltIn">
+  <doc>Logs the given message with the given level.</doc>
+  <arguments>
+   <arg>${resp.text}</arg>
+  </arguments>
+  <msg timestamp="20210301 10:57:40.174" level="INFO">{"code":200,"message":"request
+   successful","data":[{"questionnaireId":45,"itemsListId":45,"questionnaireDesc":"请问您是否属于大型机构（中小学或医院）？","isOptions":0,"isRequire":0,"serialNumber":1,"parentId":0,"treeCode":"45","weight":1,"children":[{"questionnaireId":46,"itemsListId":45,"questionnaireDesc":"是","isOptions":1,"isRequire":0,"serialNumber":1,"parentId":45,"treeCode":"45_46","weight":1,"children":[]},{"questionnaireId":47,"itemsListId":45,"questionnaireDesc":"否","isOptions":1,"isRequire":0,"serialNumber":2,"parentId":45,"treeCode":"45_47","weight":2,"children":[]}]}]}
+  </msg>
+  <status status="PASS" starttime="20210301 10:57:40.172" endtime="20210301 10:57:40.174"></status>
+ </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
 <arguments>
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20210226 11:53:33.014" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210226 11:53:33.014" endtime="20210226 11:53:33.015"></status>
+ <msg timestamp="20210301 10:57:40.174" level="INFO">Argument types are:
+  &lt;class 'int'&gt;
+  &lt;type 'unicode'&gt;
+ </msg>
+ <status status="PASS" starttime="20210301 10:57:40.174" endtime="20210301 10:57:40.174"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -1453,11 +1669,11 @@ _NOTE_: Please note that at present _XLS_ files are not supported.</doc>
 <arg>${resp.json()['message']}</arg>
 <arg>request successful</arg>
 </arguments>
-<status status="PASS" starttime="20210226 11:53:33.015" endtime="20210226 11:53:33.015"></status>
+ <status status="PASS" starttime="20210301 10:57:40.174" endtime="20210301 10:57:40.175"></status>
 </kw>
-<status status="PASS" starttime="20210226 11:53:31.971" endtime="20210226 11:53:33.015" critical="yes"></status>
+ <status status="PASS" starttime="20210301 10:57:39.135" endtime="20210301 10:57:40.175" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20210226 11:53:25.468" endtime="20210226 11:53:33.016"></status>
+  <status status="PASS" starttime="20210301 10:57:32.637" endtime="20210301 10:57:40.176"></status>
 </suite>
 <statistics>
 <total>

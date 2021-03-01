@@ -60,8 +60,8 @@ theme1 #get 获取自然人下的所有主题
     Should Be Equal As Strings    ${resp.status_code}    200
     Should Be Equal As Strings    ${resp.json()['message']}    request successful
     should exist      F:\\token.xlsx  #校验本地文件是否存在
-    should not be empty    ${resp.json()['data'][0]['themeName']}  #校验字段值不为空
     should match        ${resp.json()['data'][0]['themeName']}    生育收养
+    should not be empty    ${resp.json()['data'][0]['themeName']}  #校验字段值不为空
 
 
 theme2 #get 获取法人下的所有主题
