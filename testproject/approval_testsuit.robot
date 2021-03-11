@@ -8,8 +8,8 @@ Library           HttpLibrary
 Library           ExcelLibrary
 Library           string
 *** Variables ***
-
-
+${server}         121.30.189.198:14355
+${index}          http://${server}/approval-project
 
 *** Test Cases ***
 #baidu #UI自动化
@@ -21,7 +21,7 @@ Library           string
 #For-Loop-Elements
 
 index #获取token 获取json串的值
-    create session    local    http://121.30.189.198:14355/approval-project
+    create session    local    ${index}
     ${resp}    get on session    local    index
     log    ${resp.json()['data']['powerMenuList'][0]['menuName']}
     log    ${resp.json()['data']['token']}
@@ -37,8 +37,8 @@ index #获取token 获取json串的值
 theme1 #get 获取自然人下的所有主题
     sleep   1
     Open workbook   F:\\token.xlsx
-    ${token}     Read from cell    B4
-    ${headers}    create Dictionary    token=${token}
+    ${token}        Read from cell    B4
+    ${headers}      create Dictionary    token=${token}
     create session    local    http://121.30.189.198:14355/approval-project/theme    ${headers}
     ${resp}    GET On Session    local    1
     close_workbook    F:\\token.xlsx
@@ -59,10 +59,10 @@ theme1 #get 获取自然人下的所有主题
 theme2 #get 获取法人下的所有主题
     sleep   1
     Open workbook   F:\\token.xlsx
-    ${token}     Read from cell    B4
-    ${headers}    create Dictionary    token=${token}
+    ${token}        Read from cell    B4
+    ${headers}      create Dictionary    token=${token}
     create session    local    http://121.30.189.198:14355/approval-project/theme    ${headers}
-    ${resp}    GET On Session    local    2
+    ${resp}         GET On Session    local    2
     close_workbook    F:\\token.xlsx
     log    ${resp.status_code}
     log    ${resp.text}
