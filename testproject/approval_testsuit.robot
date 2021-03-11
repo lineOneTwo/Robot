@@ -1,7 +1,7 @@
 *** Settings ***
 Library           Selenium2Library
 Library           RequestsLibrary
-Library           Collections
+Library           collections
 Library           OperatingSystem
 Library           ExcellentLibrary
 Library           HttpLibrary
@@ -19,6 +19,9 @@ ${index}          http://${server}/approval-project
 #     click button    id=su
 #     close_browser
 #For-Loop-Elements
+   # 创建文件并保存数据
+#    create_workbook    F:\\token.xlsx    overwrite_file_if_exists=${True}
+
 
 index #获取token 获取json串的值
     create session    local    ${index}
@@ -26,8 +29,6 @@ index #获取token 获取json串的值
     log    ${resp.json()['data']['powerMenuList'][0]['menuName']}
     log    ${resp.json()['data']['token']}
     Should Be Equal As Strings    ${resp.status_code}    200
-    # 创建文件并保存数据
-#    create_workbook    F:\\token.xlsx    overwrite_file_if_exists=${True}
     open_workbook     F:\\token.xlsx
     write_to_cell     B4    ${resp.json()['data']['token']}
     save  F:\\token.xlsx
